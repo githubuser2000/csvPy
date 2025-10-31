@@ -1,4 +1,3 @@
-#!/usr/bin/env python3
 import csv
 import sys
 def spalte_aus_csv_ausgeben(dateiname, spaltennummer):
