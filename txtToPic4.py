@@ -1,15 +1,14 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 """
-txtToPicHD_multi.py - HD-Textbilder mit Rändern, Outline, automatischer Skalierung
-und automatischer Aufteilung in mehrere Bilder, wenn Text zu groß ist.
+txtToPicHD_multi.py - HD-Textbild mit Rand, lesbarer Outline, automatischer Skalierung,
+automatischer Mehrbild-Erzeugung bei zu langem Text und optionalem Bildformat.
 """
 
 import sys
 from PIL import Image, ImageDraw, ImageFont
 import textwrap
 import subprocess
-import math
 import os
 
 def find_system_font():
@@ -19,54 +18,35 @@ def find_system_font():
         lines = output.split('\n')
         for line in lines:
             if any(name in line for name in ['DejaVu Sans', 'Liberation Sans', 'FreeSans']):
-                font_name = line.split(':')[0].strip()
-                return font_name
+                return line.split(':')[0].strip()
     except Exception:
         pass
     return None
 
-def split_text_to_chunks(lines, draw, font, max_width, max_height, line_spacing):
-    """Teilt Text in Chunks, die in ein Bild passen"""
-    chunks = []
-    current_chunk = []
-    current_height = 0
-
-    for line in lines:
-        bbox = draw.textbbox((0,0), line, font=font)
-        lh = (bbox[3]-bbox[1]) + line_spacing
-        if current_height + lh > max_height:
-            if current_chunk:
-                chunks.append(current_chunk)
-            current_chunk = [line]
-            current_height = lh
-        else:
-            current_chunk.append(line)
-            current_height += lh
-    if current_chunk:
-        chunks.append(current_chunk)
-    return chunks
-
-def text_to_hd_images(text_file, image_file_base, scale=1.0):
-    img_width, img_height = 1920, 1080
+def text_to_hd_images(text_file, image_file, scale=1.0, fmt=None):
+    img_width, img_height = 1060, 1080
     bg_color = (255, 255, 255)
     text_color = (0, 0, 0)
     base_outline = 1
     base_max_chars = 40
     base_line_spacing = 10
 
-    margin_x = img_width // 5
-    margin_y = img_height // 5
+    margin_x = 25
+    margin_y = 25
 
     # Text einlesen
     with open(text_file, 'r', encoding='utf-8') as f:
         text = f.read().strip()
 
     max_chars_per_line = int(base_max_chars * scale)
+
+    # Umbruch vorbereiten
     wrapped_text = textwrap.fill(text, width=max_chars_per_line)
     all_lines = wrapped_text.split('\n')
 
-    img = Image.new("RGB", (img_width, img_height), bg_color)
-    draw = ImageDraw.Draw(img)
+    # Temp-Bild zum Messen
+    tmp_img = Image.new("RGB", (img_width, img_height))
+    tmp_draw = ImageDraw.Draw(tmp_img)
 
     font_path = find_system_font()
     font_size = 30
@@ -78,63 +58,112 @@ def text_to_hd_images(text_file, image_file_base, scale=1.0):
 
     # Automatische Schriftgrößenanpassung
     while True:
-        line_heights = [(draw.textbbox((0,0), line, font=font)[3]-draw.textbbox((0,0), line, font=font)[1]) + base_line_spacing for line in all_lines]
+        line_heights = [(tmp_draw.textbbox((0,0), line, font=font)[3] -
+                         tmp_draw.textbbox((0,0), line, font=font)[1] +
+                         base_line_spacing)
+                        for line in all_lines]
+
         total_height = sum(line_heights)
-        max_line_width = max(draw.textbbox((0,0), line, font=font)[2]-draw.textbbox((0,0), line, font=font)[0] for line in all_lines)
-        if total_height < (img_height - 2*margin_y) and max_line_width < (img_width - 2*margin_x):
+
+        max_line_width = max(
+            tmp_draw.textbbox((0,0), line, font=font)[2] -
+            tmp_draw.textbbox((0,0), line, font=font)[0]
+            for line in all_lines
+        )
+
+        if (total_height < (img_height - 2*margin_y)
+            and max_line_width < (img_width - 2*margin_x)):
             break
-        font_size = max(1, font_size - 1)
+
+        font_size -= 1
+        if font_size < 1:
+            break
+
         if font_path:
             font = ImageFont.truetype(font_path, font_size)
         else:
             font = ImageFont.load_default()
-        if font_size == 1:
-            break
 
     outline_radius = max(1, int(base_outline * scale))
-    line_spacing = base_line_spacing
 
-    # Text in Chunks aufteilen
-    chunks = split_text_to_chunks(all_lines, draw, font, img_width-2*margin_x, img_height-2*margin_y, line_spacing)
+    # Jetzt in mehrere Seiten aufteilen (Chunking)
+    chunks = []
+    current = []
+    current_height = 0
 
-    # Für jeden Chunk ein Bild erstellen
-    for idx, chunk_lines in enumerate(chunks, start=1):
+    for line in all_lines:
+        lh = (tmp_draw.textbbox((0,0), line, font=font)[3] -
+              tmp_draw.textbbox((0,0), line, font=font)[1] +
+              base_line_spacing)
+
+        if current_height + lh > (img_height - 2*margin_y):
+            chunks.append(current)
+            current = [line]
+            current_height = lh
+        else:
+            current.append(line)
+            current_height += lh
+
+    if current:
+        chunks.append(current)
+
+    # Ausgabeformat ermitteln
+    if fmt is None:
+        _, ext = os.path.splitext(image_file)
+        fmt = ext.replace(".", "").lower()
+        if fmt == "":
+            fmt = "png"  # Standard
+
+    # Für jede Seite ein Bild erzeugen
+    for i, lines in enumerate(chunks, start=1):
         img = Image.new("RGB", (img_width, img_height), bg_color)
         draw = ImageDraw.Draw(img)
 
-        line_height = max(draw.textbbox((0,0), line, font=font)[3]-draw.textbbox((0,0), line, font=font)[1]+line_spacing for line in chunk_lines)
-        total_text_height = line_height * len(chunk_lines)
+        line_height = max(
+            (draw.textbbox((0,0), line, font=font)[3] -
+             draw.textbbox((0,0), line, font=font)[1] +
+             base_line_spacing)
+            for line in lines
+        )
+
+        total_text_height = line_height * len(lines)
         y_start = margin_y + ((img_height - 2*margin_y - total_text_height)//2)
 
-        for i, line in enumerate(chunk_lines):
+        for idx, line in enumerate(lines):
             bbox = draw.textbbox((0,0), line, font=font)
-            text_width = bbox[2]-bbox[0]
-            x = margin_x + ((img_width - 2*margin_x - text_width)//2)
-            y = y_start + i*line_height
+            text_width = bbox[2] - bbox[0]
 
-            # Outline dünn
+            x = margin_x + ((img_width - 2*margin_x - text_width)//2)
+            y = y_start + idx * line_height
+
+            # Outline
             for dx in range(-outline_radius, outline_radius+1):
                 for dy in range(-outline_radius, outline_radius+1):
-                    if dx != 0 or dy != 0:
+                    if dx or dy:
                         draw.text((x+dx, y+dy), line, font=font, fill='gray')
+
             draw.text((x, y), line, font=font, fill=text_color)
 
-        # Bild speichern mit Nummerierung
+        # neue Dateinamen
         if len(chunks) == 1:
-            output_file = image_file_base
+            outfile = image_file
         else:
-            base, ext = os.path.splitext(image_file_base)
-            output_file = f"{base}_{idx}{ext}"
-        img.save(output_file)
-        print(f"Bild erstellt: {output_file}")
+            base, ext = os.path.splitext(image_file)
+            outfile = f"{base}_{i}.{fmt}"
+
+        img.save(outfile, format=fmt.upper())
+        print(f"Bild erstellt: {outfile}")
+
 
 if __name__ == "__main__":
     if len(sys.argv) < 3:
-        print("Verwendung: python3 txtToPicHD_multi.py textdatei.txt bilddatei.png [skalierungsfaktor]")
+        print("Verwendung: python3 txtToPicHD_multi.py text.txt bild.png [scale] [format]")
         sys.exit(1)
 
     text_file = sys.argv[1]
     image_file = sys.argv[2]
     scale = float(sys.argv[3]) if len(sys.argv) > 3 else 1.0
-    text_to_hd_images(text_file, image_file, scale)
+    fmt = sys.argv[4] if len(sys.argv) > 4 else None
+
+    text_to_hd_images(text_file, image_file, scale, fmt)
 
