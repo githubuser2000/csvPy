@@ -1,3 +1,5 @@
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
 from fractions import Fraction
 from math import prod, gcd, atan, pi, degrees
 import random
@@ -33,7 +35,7 @@ def generate_three_unique(max_val=42):
 # Ausführung
 try:
     gen3 = lambda m=42: next(                                                                  (p1,p2,p3,c)                                                                           for n1,n2,n3 in [(pf(random.randint(3,m)), pf(random.randint(3,m)), pf(random.randint(3,m)))]                                                                                 if len({tuple(n1), tuple(n2), tuple(n3)}) == 3                                         and (c:=reduce(gcd,[prod(n) for n in [n1,n2,n3]])) >= 3                                for p1,p2,p3 in [(prod(n1), prod(n2), prod(n3))]                                   )
-    
+
     n1, n2, n3, common = gen3()
 except:
     n1, n2, n3, common = generate_three_unique()
