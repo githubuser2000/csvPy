@@ -161,9 +161,9 @@ int main() {
     auto spaces = fractionsToSpaces(xs);
     for (auto& s : spaces)
         std::cout << "("
-                  << s[0] << "," << s[1] << ", "
-                  << s[2] << "," << s[3] << ", "
-                  << s[4] << "," << s[5] << ")\n";
+                  << s[0] << "(," << s[1] << "),( "
+                  << s[2] << "," << s[3] << "),)( "
+                  << s[4] << "(," << s[5] << "))\n";
      endtext1();
      endtext2();
 }
