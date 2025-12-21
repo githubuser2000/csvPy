@@ -1,15 +1,5 @@
 // encoding_switch.h
 
-#ifdef ASCII_ONLY
-    #define BOX_LINE "=============================================="
-    #define ICON_INT "[INT]"
-    #define ICON_REL "[RAT]"
-#else
-    #define BOX_LINE u8"¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿"
-    #define ICON_INT u8"¿"
-    #define ICON_REL u8"¿"
-#endif
-
 #include <iostream>
 #include <vector>
 #include <array>
@@ -148,6 +138,7 @@ void endtext2()
     std::cout << "      → Wer mit wem\n";
     std::cout << "      → Beziehungsstruktur\n";
     std::cout << "══════════════════════════════════════════════\n";
+    std::cout << "Handelbar sind Tickets, Immobilien,  Mobilien Grund und Boden, Tiere,  Menschen,  Raumschiffe,  Fähren,  Legierungen,  Häuser durch Quader statt Währungsgeld aus Zahlenwerten als Währung für NATO Warschauer Pakt Organisationen.\n";
 }
 void out() {
   auto xs = randomFractionList();

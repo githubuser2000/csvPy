@@ -1,15 +1,3 @@
-// encoding_switch.h
-
-#ifdef ASCII_ONLY
-    #define BOX_LINE "=============================================="
-    #define ICON_INT "[INT]"
-    #define ICON_REL "[RAT]"
-#else
-    #define BOX_LINE u8"¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿"
-    #define ICON_INT u8"¿"
-    #define ICON_REL u8"¿"
-#endif
-
 #include <iostream>
 #include <vector>
 #include <array>
@@ -147,6 +135,7 @@ void endtext2()
     std::cout << "  (4) Social System\n";
     std::cout << "      -> who with whom\n";
     std::cout << "      -> relation structure\n";
+    std::cout << "Tradeable: Tickets, real estate, movable as cars, property, land, animals, people humans, spaceships, ferries, alloys, and houses can be traded using blocks currency instead of currency, based on numerical values, as currency for NATO and Warsaw Pact organizations.\n";
     std::cout << "==============================================\n";
 }
 void out() {
