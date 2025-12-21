@@ -83,8 +83,8 @@ int main(int argc, char* argv[]) {
 
     if (SDL_Init(SDL_INIT_VIDEO) < 0) return 1;
     if (TTF_Init() < 0) return 1;
-
-    TTF_Font* font = TTF_OpenFont("DejaVuSansMono.ttf", 18);
+    TTF_Font* font = TTF_OpenFont("/data/data/com.termux/files/usr/share/fonts/TTF/DejaVuSerif.ttf", 18);
+    //TTF_Font* font = TTF_OpenFont("UbuntuMono-R.ttf", 18);
     if (!font) {
         std::cerr << "Font nicht gefunden!\n";
         return 1;
