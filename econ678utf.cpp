@@ -95,31 +95,31 @@ void endtext1()
     int n = 3;
 
     std::cout << "\n";
-    std::cout << "¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿\n";
-    std::cout << "¿  GANZZAHL ¿ Zustand im dimensionalen Raum\n";
-    std::cout << "¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿\n";
-    std::cout << "¿ Wert: n = " << n << "\n\n";
+    std::cout << "══════════════════════════════════════════════\n";
+    std::cout << "🔢  GANZZAHL – Zustand im dimensionalen Raum\n";
+    std::cout << "══════════════════════════════════════════════\n";
+    std::cout << "📌 Wert: n = " << n << "\n\n";
 
-    std::cout << "¿ Bedeutung:\n";
-    std::cout << "   ¿ ¿ Marktwirtschaft\n";
-    std::cout << "      ¿ absoluter Trieb- oder Wertzustand\n\n";
+    std::cout << "🧠 Bedeutung:\n";
+    std::cout << "   ① 💰 Marktwirtschaft\n";
+    std::cout << "      → absoluter Trieb- oder Wertzustand\n\n";
 
-    std::cout << "   ¿ ¿ Währung\n";
-    std::cout << "      ¿ isolierte Währung\n";
-    std::cout << "      ¿ kein Umtauschverhältnis\n\n";
+    std::cout << "   ② 💱 Währung\n";
+    std::cout << "      → isolierte Währung\n";
+    std::cout << "      → kein Umtauschverhältnis\n\n";
 
-    std::cout << "   ¿ ¿¿ Kommunismus-Zustände\n";
-    std::cout << "      ¿ Armut\n";
-    std::cout << "      ¿ Reparatur-Zustand\n";
-    std::cout << "      ¿ Gesundheits-/Krankheits-Zustand\n";
-    std::cout << "      ¿ Schwäche / Zentralität / Impulsivität\n\n";
+    std::cout << "   ③ 🏗️ Kommunismus-Zustände\n";
+    std::cout << "      • Armut\n";
+    std::cout << "      • Reparatur-Zustand\n";
+    std::cout << "      • Gesundheits-/Krankheits-Zustand\n";
+    std::cout << "      • Schwäche / Zentralität / Impulsivität\n\n";
 
-    std::cout << "   ¿ ¿ Geometrie\n";
-    std::cout << "      ¿ Volumen- oder Flächeneinheit\n\n";
+    std::cout << "   ④ 📐 Geometrie\n";
+    std::cout << "      → Volumen- oder Flächeneinheit\n\n";
 
-    std::cout << "   ¿ ¿ Hierarchie\n";
-    std::cout << "      ¿ Rangordnung (oben / unten)\n";
-    std::cout << "¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿\n";
+    std::cout << "   ⑤ 🧭 Hierarchie\n";
+    std::cout << "      → Rangordnung (oben / unten)\n";
+    std::cout << "══════════════════════════════════════════════\n";
 }
 void endtext2()
 {
@@ -128,28 +128,27 @@ void endtext2()
     double r = static_cast<double>(a) / b;
 
     std::cout << "\n";
-    std::cout << "¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿\n";
-    std::cout << "¿  RATIONALE ZAHL ¿ Relation im Raum\n";
-    std::cout << "¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿\n";
-    std::cout << "¿ Wert: r = " << a << "/" << b << " = " << r << "\n\n";
+    std::cout << "══════════════════════════════════════════════\n";
+    std::cout << "🔁  RATIONALE ZAHL – Relation im Raum\n";
+    std::cout << "══════════════════════════════════════════════\n";
+    std::cout << "📌 Wert: r = " << a << "/" << b << " = " << r << "\n\n";
 
-    std::cout << "¿ Bedeutung:\n";
-    std::cout << "   ¿ ¿ Währungen\n";
-    std::cout << "      ¿ Wechselkurs / Verhältnis\n\n";
+    std::cout << "🧠 Bedeutung:\n";
+    std::cout << "   ① 💱 Währungen\n";
+    std::cout << "      → Wechselkurs / Verhältnis\n\n";
 
-    std::cout << "   ¿ ¿ Geometrie (2D)\n";
-    std::cout << "      ¿ Richtungswinkel\n";
-    std::cout << "      ¿ Steigung in einer Matrix\n\n";
+    std::cout << "   ② 🧭 Geometrie (2D)\n";
+    std::cout << "      → Richtungswinkel\n";
+    std::cout << "      → Steigung in einer Matrix\n\n";
 
-    std::cout << "   ¿ ¿ Diplomatie\n";
-    std::cout << "      ¿ Macht-, Einfluss- oder Abhängigkeitsverhältnis\n\n";
+    std::cout << "   ③ 🤝 Diplomatie\n";
+    std::cout << "      → Macht-, Einfluss- oder Abhängigkeitsverhältnis\n\n";
 
-    std::cout << "   ¿ ¿¿¿¿¿ Soziales System\n";
-    std::cout << "      ¿ Wer mit wem\n";
-    std::cout << "      ¿ Beziehungsstruktur\n";
-    std::cout << "¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿\n";
+    std::cout << "   ④ 🧑‍🤝‍🧑 Soziales System\n";
+    std::cout << "      → Wer mit wem\n";
+    std::cout << "      → Beziehungsstruktur\n";
+    std::cout << "══════════════════════════════════════════════\n";
 }
-
 void out() {
   auto xs = randomFractionList();
 
