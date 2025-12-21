@@ -90,37 +90,6 @@ std::vector<Space> fractionsToSpaces(const std::vector<Rational>& v) {
     }
     return out;
 }
-void endtext1()
-{
-    int n = 3;
-
-    std::cout << "\n";
-    std::cout << "==============================================\n";
-    std::cout << "[INT]  GANZZAHL - Zustand im dimensionalen Raum\n";
-    std::cout << "==============================================\n";
-    std::cout << "Value: n = " << n << "\n\n";
-
-    std::cout << "Meaning:\n";
-    std::cout << "  (1) Market Economy\n";
-    std::cout << "      -> absolute drive / value state\n\n";
-
-    std::cout << "  (2) Currency\n";
-    std::cout << "      -> isolated currency\n";
-    std::cout << "      -> no exchange ratio\n\n";
-
-    std::cout << "  (3) Communism States\n";
-    std::cout << "      * poverty\n";
-    std::cout << "      * repair state\n";
-    std::cout << "      * health / illness\n";
-    std::cout << "      * weakness / centrality / impulsivity\n\n";
-
-    std::cout << "  (4) Geometry\n";
-    std::cout << "      -> volume or area unit\n\n";
-
-    std::cout << "  (5) Hierarchy\n";
-    std::cout << "      -> rank (top / bottom)\n";
-    std::cout << "==============================================\n";
-}
 
 void endtext2()
 {
@@ -129,26 +98,28 @@ void endtext2()
     double r = static_cast<double>(a) / b;
 
     std::cout << "\n";
-    std::cout << "==============================================\n";
-    std::cout << "[RAT]  RATIONAL NUMBER - Relation in space\n";
-    std::cout << "==============================================\n";
-    std::cout << "Value: r = " << a << "/" << b << " = " << r << "\n\n";
+    std::cout << "¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿\n";
+    std::cout << "¿  RATIONALE ZAHL ¿ Relation im Raum\n";
+    std::cout << "¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿\n";
+    std::cout << "¿ Wert: r = " << a << "/" << b << " = " << r << "\n\n";
 
-    std::cout << "Meaning:\n";
-    std::cout << "  (1) Currencies\n";
-    std::cout << "      -> exchange ratio\n\n";
+    std::cout << "¿ Bedeutung:\n";
+    std::cout << "   ¿ ¿ Währungen\n";
+    std::cout << "      ¿ Wechselkurs / Verhältnis\n\n";
 
-    std::cout << "  (2) Geometry (2D)\n";
-    std::cout << "      -> direction / slope\n\n";
+    std::cout << "   ¿ ¿ Geometrie (2D)\n";
+    std::cout << "      ¿ Richtungswinkel\n";
+    std::cout << "      ¿ Steigung in einer Matrix\n\n";
 
-    std::cout << "  (3) Diplomacy\n";
-    std::cout << "      -> power / influence relation\n\n";
+    std::cout << "   ¿ ¿ Diplomatie\n";
+    std::cout << "      ¿ Macht-, Einfluss- oder Abhängigkeitsverhältnis\n\n";
 
-    std::cout << "  (4) Social System\n";
-    std::cout << "      -> who with whom\n";
-    std::cout << "      -> relation structure\n";
-    std::cout << "==============================================\n";
+    std::cout << "   ¿ ¿¿¿¿¿ Soziales System\n";
+    std::cout << "      ¿ Wer mit wem\n";
+    std::cout << "      ¿ Beziehungsstruktur\n";
+    std::cout << "¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿\n";
 }
+
 void out() {
   auto xs = randomFractionList();
 
