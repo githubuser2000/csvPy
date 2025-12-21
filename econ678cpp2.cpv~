@@ -1,4 +1,5 @@
 // encoding_switch.h
+#pragma once
 
 #ifdef ASCII_ONLY
     #define BOX_LINE "=============================================="

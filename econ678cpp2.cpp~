@@ -1,15 +1,3 @@
-// encoding_switch.h
-
-#ifdef ASCII_ONLY
-    #define BOX_LINE "=============================================="
-    #define ICON_INT "[INT]"
-    #define ICON_REL "[RAT]"
-#else
-    #define BOX_LINE u8"¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿¿"
-    #define ICON_INT u8"¿"
-    #define ICON_REL u8"¿"
-#endif
-
 #include <iostream>
 #include <vector>
 #include <array>
@@ -90,64 +78,32 @@ std::vector<Space> fractionsToSpaces(const std::vector<Rational>& v) {
     }
     return out;
 }
-void endtext1()
-{
+
+void endtext1() {
     int n = 3;
 
-    std::cout << "\n";
-    std::cout << "==============================================\n";
-    std::cout << "[INT]  GANZZAHL - Zustand im dimensionalen Raum\n";
-    std::cout << "==============================================\n";
-    std::cout << "Value: n = " << n << "\n\n";
-
-    std::cout << "Meaning:\n";
-    std::cout << "  (1) Market Economy\n";
-    std::cout << "      -> absolute drive / value state\n\n";
-
-    std::cout << "  (2) Currency\n";
-    std::cout << "      -> isolated currency\n";
-    std::cout << "      -> no exchange ratio\n\n";
-
-    std::cout << "  (3) Communism States\n";
-    std::cout << "      * poverty\n";
-    std::cout << "      * repair state\n";
-    std::cout << "      * health / illness\n";
-    std::cout << "      * weakness / centrality / impulsivity\n\n";
-
-    std::cout << "  (4) Geometry\n";
-    std::cout << "      -> volume or area unit\n\n";
-
-    std::cout << "  (5) Hierarchy\n";
-    std::cout << "      -> rank (top / bottom)\n";
-    std::cout << "==============================================\n";
+    std::cout << "Ganzzahl n = " << n << "\n";
+    std::cout << "Bedeutung:\n";
+    std::cout << "1) Marktwirtschaft: absoluter Trieb- oder Wertzustand\n";
+    std::cout << "2) Waehrung: isolierte Waehrung, kein Umtauschverhaeltnis\n";
+    std::cout << "3) Kommunismus-Zustand:\n";
+    std::cout << "   - Armut / Reparatur / Krankheit / Schwaeche\n";
+    std::cout << "   - Zentralitaet oder Impulsivitaet\n";
+    std::cout << "4) Geometrie: Volumen- oder Flaecheneinheit\n";
+    std::cout << "5) Hierarchie: Rang (oben/unten)\n";
 }
 
-void endtext2()
-{
+void endtext2() {
     int a = 2;
     int b = 5;
     double r = static_cast<double>(a) / b;
 
-    std::cout << "\n";
-    std::cout << "==============================================\n";
-    std::cout << "[RAT]  RATIONAL NUMBER - Relation in space\n";
-    std::cout << "==============================================\n";
-    std::cout << "Value: r = " << a << "/" << b << " = " << r << "\n\n";
-
-    std::cout << "Meaning:\n";
-    std::cout << "  (1) Currencies\n";
-    std::cout << "      -> exchange ratio\n\n";
-
-    std::cout << "  (2) Geometry (2D)\n";
-    std::cout << "      -> direction / slope\n\n";
-
-    std::cout << "  (3) Diplomacy\n";
-    std::cout << "      -> power / influence relation\n\n";
-
-    std::cout << "  (4) Social System\n";
-    std::cout << "      -> who with whom\n";
-    std::cout << "      -> relation structure\n";
-    std::cout << "==============================================\n";
+    std::cout << "Rationale Zahl r = " << a << "/" << b << " = " << r << "\n";
+    std::cout << "Bedeutung:\n";
+    std::cout << "1) Waehrungen: Wechselkurs-Verhaeltnis\n";
+    std::cout << "2) Geometrie: Richtungswinkel oder Steigung im 2D-Raum\n";
+    std::cout << "3) Diplomatie: Macht- oder Einflussverhaeltnis\n";
+    std::cout << "4) Soziales System: Wer mit wem (Beziehungsstruktur)\n";
 }
 
 int main() {
