@@ -64,8 +64,25 @@ void renderLine(SDL_Renderer* renderer, TTF_Font* font, const std::string& line,
     }
 }
 
+// global:
+SDL_Color normalColor    = {0, 0, 0, 255};
+SDL_Color bgColor        = {255, 255, 255, 255};
+
+int main() {
+    SDL_Init(SDL_INIT_VIDEO);
+    TTF_Init();
+    
+    SDL_Window* window = SDL_CreateWindow("Test", SDL_WINDOWPOS_UNDEFINED, SDL_WINDOWPOS_UNDEFINED, 800, 600, SDL_WINDOW_HIDDEN);
+    SDL_Renderer* renderer = SDL_CreateRenderer(window, -1, SDL_RENDERER_ACCELERATED);
+
+    // Hintergrundfarbe nur hier setzen
+    SDL_SetRenderDrawColor(renderer, bgColor.r, bgColor.g, bgColor.b, bgColor.a);
+    SDL_RenderClear(renderer);
+
+    // ... restlicher Render-Code ...
+}
+SDL_Color normalColor = {0, 0, 0, 255}; // schwarz auf weiß
 // ====== Hauptprogramm ======
-int main(int argc, char* argv[]) {
     if (argc < 2) {
         std::cerr << "Usage: " << argv[0] << " <cpp_file>\n";
         return 1;
