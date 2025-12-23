@@ -1,0 +1,11 @@
+vim -p **/*.cpp **/*.h
+
+find . -maxdepth 1 -type f -executable
+find /pfad/zum/verzeichnis -type f -executable -exec ls -l {} \;
+find /pfad/zum/verzeichnis -type f -name "*.sh" -executable
+
+shopt -s globstar
+vim -p **/*.cpp **/*.h
+
+:tabedit file1.cpp
+:tabedit file2.h
