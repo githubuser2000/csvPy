@@ -4,7 +4,7 @@ project(econ567 LANGUAGES CXX)
 set(CMAKE_CXX_STANDARD 20)
 set(CMAKE_CXX_STANDARD_REQUIRED ON)
 
-# Executable nach bin/
+# Primärer Output
 set(CMAKE_RUNTIME_OUTPUT_DIRECTORY "${CMAKE_SOURCE_DIR}/bin")
 
 # Bibliothek
@@ -23,4 +23,12 @@ add_executable(econ567
 
 target_link_libraries(econ567
     PRIVATE econlib
+)
+
+# Kopie in ../../bin nach Build
+add_custom_command(TARGET econ567 POST_BUILD
+    COMMAND ${CMAKE_COMMAND} -E copy
+            $<TARGET_FILE:econ567>
+            "${CMAKE_SOURCE_DIR}/../bin/econ567"
+    COMMENT "Kopiere econ567 nach ../../bin/"
 )
