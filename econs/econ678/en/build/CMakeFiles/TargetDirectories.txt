@@ -1,0 +1,3 @@
+/data/data/com.termux/files/home/myRepos/csvPy/econs/econ678/build/CMakeFiles/rational_space.dir
+/data/data/com.termux/files/home/myRepos/csvPy/econs/econ678/build/CMakeFiles/edit_cache.dir
+/data/data/com.termux/files/home/myRepos/csvPy/econs/econ678/build/CMakeFiles/rebuild_cache.dir
