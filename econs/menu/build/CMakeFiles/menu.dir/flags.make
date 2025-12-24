@@ -4,7 +4,7 @@
 # compile CXX with /data/data/com.termux/files/usr/bin/c++
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/data/data/com.termux/files/home/myRepos/csvPy/econs/menu/../567/include -I/data/data/com.termux/files/home/myRepos/csvPy/econs/menu/../678/en/include -I/data/data/com.termux/files/home/myRepos/csvPy/econs/menu/../678/de/include -I/data/data/com.termux/files/home/myRepos/csvPy/econs/menu/../econ567/include -I/data/data/com.termux/files/home/myRepos/csvPy/econs/menu/include
+CXX_INCLUDES = -I/data/data/com.termux/files/home/myRepos/csvPy/econs/menu/../567/include -I/data/data/com.termux/files/home/myRepos/csvPy/econs/menu/../econ567/include -I/data/data/com.termux/files/home/myRepos/csvPy/econs/menu/include
 
 CXX_FLAGS = -O2 -g -DNDEBUG -std=gnu++20
 

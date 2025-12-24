@@ -1,6 +1,6 @@
-CMakeFiles/menu.dir/src/mode_text.cpp.o: \
-  /data/data/com.termux/files/home/myRepos/csvPy/econs/menu/src/mode_text.cpp \
-  /data/data/com.termux/files/home/myRepos/csvPy/econs/menu/include/mode_text.h \
+CMakeFiles/menu.dir/src/mode_toggle.cpp.o: \
+  /data/data/com.termux/files/home/myRepos/csvPy/econs/menu/src/mode_toggle.cpp \
+  /data/data/com.termux/files/home/myRepos/csvPy/econs/menu/include/mode_toggle.h \
   /data/data/com.termux/files/home/myRepos/csvPy/econs/menu/include/bitmask.h \
   /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/set \
   /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/__algorithm/equal.h \
@@ -868,6 +868,4 @@ CMakeFiles/menu.dir/src/mode_text.cpp.o: \
   /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/deque \
   /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/stack \
   /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/print \
-  /data/data/com.termux/files/usr/bin/../../usr/include/unistd.h \
-  /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/sstream \
-  /data/data/com.termux/files/home/myRepos/csvPy/econs/menu/../567/include/notMain567a.h
+  /data/data/com.termux/files/usr/bin/../../usr/include/unistd.h

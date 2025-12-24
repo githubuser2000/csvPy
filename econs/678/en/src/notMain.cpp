@@ -5,10 +5,6 @@
 #include <locale>
 
 
-const char8_t* title_u8 = u8"Mein Titel";
-std::cout << std::string(reinterpret_cast<const char*>(title_u8)) << "\n";
-
-
 void banner(const char* title) {
     std::cout << BOX_LINE << "\n" << title << "\n" << BOX_LINE << "\n";
 }
@@ -43,7 +39,7 @@ void out() {
     std::cout << "\n";
 }
 
-int main() {
+int start() {
     std::locale::global(std::locale("C.UTF-8"));
 
     out();

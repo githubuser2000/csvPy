@@ -7,8 +7,12 @@
 #include "math_utils.h"
 using namespace std;
 
+void run567a() {
+    std::cout << "567 läuft...\n";
+    // Hauptlogik
+}
 
-int main() {
+int start567a() {
     auto [n1, n2, n3, common] = generateThreeUnique(42);
 
     int q1_num = n1, q1_den = n2;

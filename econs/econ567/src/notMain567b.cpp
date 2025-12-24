@@ -1,16 +1,14 @@
 #include <iostream>
 #include <vector>
 #include <string>
-// Vorher
-//#include "../567/include/math_utils.h"
-// Nachher
 #include "math_utils.h"
-using namespace std;
 
+using namespace std;
 
 int main() {
     auto [n1, n2, n3, common] = generateThreeUnique(42);
 
+    // Rationalzahlen
     int q1_num = n1, q1_den = n2;
     int q2_num = n2, q2_den = n3;
 

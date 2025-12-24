@@ -142,107 +142,36 @@ econ49/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/econ49.dir/build.make CMakeFiles/econ49.dir/build
 .PHONY : econ49/fast
 
-data/data/com.termux/files/home/myRepos/csvPy/econs/567/src/main.o: data/data/com.termux/files/home/myRepos/csvPy/econs/567/src/main.cpp.o
-.PHONY : data/data/com.termux/files/home/myRepos/csvPy/econs/567/src/main.o
+data/data/com.termux/files/home/myRepos/csvPy/econs/567/src/notMain567a.o: data/data/com.termux/files/home/myRepos/csvPy/econs/567/src/notMain567a.cpp.o
+.PHONY : data/data/com.termux/files/home/myRepos/csvPy/econs/567/src/notMain567a.o
 
 # target to build an object file
-data/data/com.termux/files/home/myRepos/csvPy/econs/567/src/main.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/menu.dir/build.make CMakeFiles/menu.dir/data/data/com.termux/files/home/myRepos/csvPy/econs/567/src/main.cpp.o
-.PHONY : data/data/com.termux/files/home/myRepos/csvPy/econs/567/src/main.cpp.o
+data/data/com.termux/files/home/myRepos/csvPy/econs/567/src/notMain567a.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/menu.dir/build.make CMakeFiles/menu.dir/data/data/com.termux/files/home/myRepos/csvPy/econs/567/src/notMain567a.cpp.o
+.PHONY : data/data/com.termux/files/home/myRepos/csvPy/econs/567/src/notMain567a.cpp.o
 
-data/data/com.termux/files/home/myRepos/csvPy/econs/567/src/main.i: data/data/com.termux/files/home/myRepos/csvPy/econs/567/src/main.cpp.i
-.PHONY : data/data/com.termux/files/home/myRepos/csvPy/econs/567/src/main.i
-
-# target to preprocess a source file
-data/data/com.termux/files/home/myRepos/csvPy/econs/567/src/main.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/menu.dir/build.make CMakeFiles/menu.dir/data/data/com.termux/files/home/myRepos/csvPy/econs/567/src/main.cpp.i
-.PHONY : data/data/com.termux/files/home/myRepos/csvPy/econs/567/src/main.cpp.i
-
-data/data/com.termux/files/home/myRepos/csvPy/econs/567/src/main.s: data/data/com.termux/files/home/myRepos/csvPy/econs/567/src/main.cpp.s
-.PHONY : data/data/com.termux/files/home/myRepos/csvPy/econs/567/src/main.s
-
-# target to generate assembly for a file
-data/data/com.termux/files/home/myRepos/csvPy/econs/567/src/main.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/menu.dir/build.make CMakeFiles/menu.dir/data/data/com.termux/files/home/myRepos/csvPy/econs/567/src/main.cpp.s
-.PHONY : data/data/com.termux/files/home/myRepos/csvPy/econs/567/src/main.cpp.s
-
-data/data/com.termux/files/home/myRepos/csvPy/econs/678/de/src/main.o: data/data/com.termux/files/home/myRepos/csvPy/econs/678/de/src/main.cpp.o
-.PHONY : data/data/com.termux/files/home/myRepos/csvPy/econs/678/de/src/main.o
-
-# target to build an object file
-data/data/com.termux/files/home/myRepos/csvPy/econs/678/de/src/main.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/menu.dir/build.make CMakeFiles/menu.dir/data/data/com.termux/files/home/myRepos/csvPy/econs/678/de/src/main.cpp.o
-.PHONY : data/data/com.termux/files/home/myRepos/csvPy/econs/678/de/src/main.cpp.o
-
-data/data/com.termux/files/home/myRepos/csvPy/econs/678/de/src/main.i: data/data/com.termux/files/home/myRepos/csvPy/econs/678/de/src/main.cpp.i
-.PHONY : data/data/com.termux/files/home/myRepos/csvPy/econs/678/de/src/main.i
+data/data/com.termux/files/home/myRepos/csvPy/econs/567/src/notMain567a.i: data/data/com.termux/files/home/myRepos/csvPy/econs/567/src/notMain567a.cpp.i
+.PHONY : data/data/com.termux/files/home/myRepos/csvPy/econs/567/src/notMain567a.i
 
 # target to preprocess a source file
-data/data/com.termux/files/home/myRepos/csvPy/econs/678/de/src/main.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/menu.dir/build.make CMakeFiles/menu.dir/data/data/com.termux/files/home/myRepos/csvPy/econs/678/de/src/main.cpp.i
-.PHONY : data/data/com.termux/files/home/myRepos/csvPy/econs/678/de/src/main.cpp.i
+data/data/com.termux/files/home/myRepos/csvPy/econs/567/src/notMain567a.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/menu.dir/build.make CMakeFiles/menu.dir/data/data/com.termux/files/home/myRepos/csvPy/econs/567/src/notMain567a.cpp.i
+.PHONY : data/data/com.termux/files/home/myRepos/csvPy/econs/567/src/notMain567a.cpp.i
 
-data/data/com.termux/files/home/myRepos/csvPy/econs/678/de/src/main.s: data/data/com.termux/files/home/myRepos/csvPy/econs/678/de/src/main.cpp.s
-.PHONY : data/data/com.termux/files/home/myRepos/csvPy/econs/678/de/src/main.s
-
-# target to generate assembly for a file
-data/data/com.termux/files/home/myRepos/csvPy/econs/678/de/src/main.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/menu.dir/build.make CMakeFiles/menu.dir/data/data/com.termux/files/home/myRepos/csvPy/econs/678/de/src/main.cpp.s
-.PHONY : data/data/com.termux/files/home/myRepos/csvPy/econs/678/de/src/main.cpp.s
-
-data/data/com.termux/files/home/myRepos/csvPy/econs/678/en/src/main.o: data/data/com.termux/files/home/myRepos/csvPy/econs/678/en/src/main.cpp.o
-.PHONY : data/data/com.termux/files/home/myRepos/csvPy/econs/678/en/src/main.o
-
-# target to build an object file
-data/data/com.termux/files/home/myRepos/csvPy/econs/678/en/src/main.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/menu.dir/build.make CMakeFiles/menu.dir/data/data/com.termux/files/home/myRepos/csvPy/econs/678/en/src/main.cpp.o
-.PHONY : data/data/com.termux/files/home/myRepos/csvPy/econs/678/en/src/main.cpp.o
-
-data/data/com.termux/files/home/myRepos/csvPy/econs/678/en/src/main.i: data/data/com.termux/files/home/myRepos/csvPy/econs/678/en/src/main.cpp.i
-.PHONY : data/data/com.termux/files/home/myRepos/csvPy/econs/678/en/src/main.i
-
-# target to preprocess a source file
-data/data/com.termux/files/home/myRepos/csvPy/econs/678/en/src/main.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/menu.dir/build.make CMakeFiles/menu.dir/data/data/com.termux/files/home/myRepos/csvPy/econs/678/en/src/main.cpp.i
-.PHONY : data/data/com.termux/files/home/myRepos/csvPy/econs/678/en/src/main.cpp.i
-
-data/data/com.termux/files/home/myRepos/csvPy/econs/678/en/src/main.s: data/data/com.termux/files/home/myRepos/csvPy/econs/678/en/src/main.cpp.s
-.PHONY : data/data/com.termux/files/home/myRepos/csvPy/econs/678/en/src/main.s
+data/data/com.termux/files/home/myRepos/csvPy/econs/567/src/notMain567a.s: data/data/com.termux/files/home/myRepos/csvPy/econs/567/src/notMain567a.cpp.s
+.PHONY : data/data/com.termux/files/home/myRepos/csvPy/econs/567/src/notMain567a.s
 
 # target to generate assembly for a file
-data/data/com.termux/files/home/myRepos/csvPy/econs/678/en/src/main.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/menu.dir/build.make CMakeFiles/menu.dir/data/data/com.termux/files/home/myRepos/csvPy/econs/678/en/src/main.cpp.s
-.PHONY : data/data/com.termux/files/home/myRepos/csvPy/econs/678/en/src/main.cpp.s
-
-data/data/com.termux/files/home/myRepos/csvPy/econs/econ567/src/main.o: data/data/com.termux/files/home/myRepos/csvPy/econs/econ567/src/main.cpp.o
-.PHONY : data/data/com.termux/files/home/myRepos/csvPy/econs/econ567/src/main.o
-
-# target to build an object file
-data/data/com.termux/files/home/myRepos/csvPy/econs/econ567/src/main.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/menu.dir/build.make CMakeFiles/menu.dir/data/data/com.termux/files/home/myRepos/csvPy/econs/econ567/src/main.cpp.o
-.PHONY : data/data/com.termux/files/home/myRepos/csvPy/econs/econ567/src/main.cpp.o
-
-data/data/com.termux/files/home/myRepos/csvPy/econs/econ567/src/main.i: data/data/com.termux/files/home/myRepos/csvPy/econs/econ567/src/main.cpp.i
-.PHONY : data/data/com.termux/files/home/myRepos/csvPy/econs/econ567/src/main.i
-
-# target to preprocess a source file
-data/data/com.termux/files/home/myRepos/csvPy/econs/econ567/src/main.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/menu.dir/build.make CMakeFiles/menu.dir/data/data/com.termux/files/home/myRepos/csvPy/econs/econ567/src/main.cpp.i
-.PHONY : data/data/com.termux/files/home/myRepos/csvPy/econs/econ567/src/main.cpp.i
-
-data/data/com.termux/files/home/myRepos/csvPy/econs/econ567/src/main.s: data/data/com.termux/files/home/myRepos/csvPy/econs/econ567/src/main.cpp.s
-.PHONY : data/data/com.termux/files/home/myRepos/csvPy/econs/econ567/src/main.s
-
-# target to generate assembly for a file
-data/data/com.termux/files/home/myRepos/csvPy/econs/econ567/src/main.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/menu.dir/build.make CMakeFiles/menu.dir/data/data/com.termux/files/home/myRepos/csvPy/econs/econ567/src/main.cpp.s
-.PHONY : data/data/com.termux/files/home/myRepos/csvPy/econs/econ567/src/main.cpp.s
+data/data/com.termux/files/home/myRepos/csvPy/econs/567/src/notMain567a.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/menu.dir/build.make CMakeFiles/menu.dir/data/data/com.termux/files/home/myRepos/csvPy/econs/567/src/notMain567a.cpp.s
+.PHONY : data/data/com.termux/files/home/myRepos/csvPy/econs/567/src/notMain567a.cpp.s
 
 src/bitmask.o: src/bitmask.cpp.o
 .PHONY : src/bitmask.o
 
 # target to build an object file
 src/bitmask.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/menu.dir/build.make CMakeFiles/menu.dir/src/bitmask.cpp.o
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/econ49.dir/build.make CMakeFiles/econ49.dir/src/bitmask.cpp.o
 .PHONY : src/bitmask.cpp.o
 
@@ -251,6 +180,7 @@ src/bitmask.i: src/bitmask.cpp.i
 
 # target to preprocess a source file
 src/bitmask.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/menu.dir/build.make CMakeFiles/menu.dir/src/bitmask.cpp.i
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/econ49.dir/build.make CMakeFiles/econ49.dir/src/bitmask.cpp.i
 .PHONY : src/bitmask.cpp.i
 
@@ -259,6 +189,7 @@ src/bitmask.s: src/bitmask.cpp.s
 
 # target to generate assembly for a file
 src/bitmask.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/menu.dir/build.make CMakeFiles/menu.dir/src/bitmask.cpp.s
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/econ49.dir/build.make CMakeFiles/econ49.dir/src/bitmask.cpp.s
 .PHONY : src/bitmask.cpp.s
 
@@ -267,6 +198,7 @@ src/main.o: src/main.cpp.o
 
 # target to build an object file
 src/main.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/menu.dir/build.make CMakeFiles/menu.dir/src/main.cpp.o
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/econ49.dir/build.make CMakeFiles/econ49.dir/src/main.cpp.o
 .PHONY : src/main.cpp.o
 
@@ -275,6 +207,7 @@ src/main.i: src/main.cpp.i
 
 # target to preprocess a source file
 src/main.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/menu.dir/build.make CMakeFiles/menu.dir/src/main.cpp.i
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/econ49.dir/build.make CMakeFiles/econ49.dir/src/main.cpp.i
 .PHONY : src/main.cpp.i
 
@@ -283,6 +216,7 @@ src/main.s: src/main.cpp.s
 
 # target to generate assembly for a file
 src/main.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/menu.dir/build.make CMakeFiles/menu.dir/src/main.cpp.s
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/econ49.dir/build.make CMakeFiles/econ49.dir/src/main.cpp.s
 .PHONY : src/main.cpp.s
 
@@ -291,6 +225,7 @@ src/mode_ncurses.o: src/mode_ncurses.cpp.o
 
 # target to build an object file
 src/mode_ncurses.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/menu.dir/build.make CMakeFiles/menu.dir/src/mode_ncurses.cpp.o
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/econ49.dir/build.make CMakeFiles/econ49.dir/src/mode_ncurses.cpp.o
 .PHONY : src/mode_ncurses.cpp.o
 
@@ -299,6 +234,7 @@ src/mode_ncurses.i: src/mode_ncurses.cpp.i
 
 # target to preprocess a source file
 src/mode_ncurses.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/menu.dir/build.make CMakeFiles/menu.dir/src/mode_ncurses.cpp.i
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/econ49.dir/build.make CMakeFiles/econ49.dir/src/mode_ncurses.cpp.i
 .PHONY : src/mode_ncurses.cpp.i
 
@@ -307,6 +243,7 @@ src/mode_ncurses.s: src/mode_ncurses.cpp.s
 
 # target to generate assembly for a file
 src/mode_ncurses.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/menu.dir/build.make CMakeFiles/menu.dir/src/mode_ncurses.cpp.s
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/econ49.dir/build.make CMakeFiles/econ49.dir/src/mode_ncurses.cpp.s
 .PHONY : src/mode_ncurses.cpp.s
 
@@ -342,6 +279,7 @@ src/mode_toggle.o: src/mode_toggle.cpp.o
 
 # target to build an object file
 src/mode_toggle.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/menu.dir/build.make CMakeFiles/menu.dir/src/mode_toggle.cpp.o
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/econ49.dir/build.make CMakeFiles/econ49.dir/src/mode_toggle.cpp.o
 .PHONY : src/mode_toggle.cpp.o
 
@@ -350,6 +288,7 @@ src/mode_toggle.i: src/mode_toggle.cpp.i
 
 # target to preprocess a source file
 src/mode_toggle.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/menu.dir/build.make CMakeFiles/menu.dir/src/mode_toggle.cpp.i
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/econ49.dir/build.make CMakeFiles/econ49.dir/src/mode_toggle.cpp.i
 .PHONY : src/mode_toggle.cpp.i
 
@@ -358,6 +297,7 @@ src/mode_toggle.s: src/mode_toggle.cpp.s
 
 # target to generate assembly for a file
 src/mode_toggle.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/menu.dir/build.make CMakeFiles/menu.dir/src/mode_toggle.cpp.s
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/econ49.dir/build.make CMakeFiles/econ49.dir/src/mode_toggle.cpp.s
 .PHONY : src/mode_toggle.cpp.s
 
@@ -371,18 +311,9 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... econ49"
 	@echo "... menu"
-	@echo "... data/data/com.termux/files/home/myRepos/csvPy/econs/567/src/main.o"
-	@echo "... data/data/com.termux/files/home/myRepos/csvPy/econs/567/src/main.i"
-	@echo "... data/data/com.termux/files/home/myRepos/csvPy/econs/567/src/main.s"
-	@echo "... data/data/com.termux/files/home/myRepos/csvPy/econs/678/de/src/main.o"
-	@echo "... data/data/com.termux/files/home/myRepos/csvPy/econs/678/de/src/main.i"
-	@echo "... data/data/com.termux/files/home/myRepos/csvPy/econs/678/de/src/main.s"
-	@echo "... data/data/com.termux/files/home/myRepos/csvPy/econs/678/en/src/main.o"
-	@echo "... data/data/com.termux/files/home/myRepos/csvPy/econs/678/en/src/main.i"
-	@echo "... data/data/com.termux/files/home/myRepos/csvPy/econs/678/en/src/main.s"
-	@echo "... data/data/com.termux/files/home/myRepos/csvPy/econs/econ567/src/main.o"
-	@echo "... data/data/com.termux/files/home/myRepos/csvPy/econs/econ567/src/main.i"
-	@echo "... data/data/com.termux/files/home/myRepos/csvPy/econs/econ567/src/main.s"
+	@echo "... data/data/com.termux/files/home/myRepos/csvPy/econs/567/src/notMain567a.o"
+	@echo "... data/data/com.termux/files/home/myRepos/csvPy/econs/567/src/notMain567a.i"
+	@echo "... data/data/com.termux/files/home/myRepos/csvPy/econs/567/src/notMain567a.s"
 	@echo "... src/bitmask.o"
 	@echo "... src/bitmask.i"
 	@echo "... src/bitmask.s"

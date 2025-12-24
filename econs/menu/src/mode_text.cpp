@@ -6,10 +6,13 @@
 #include <string>
 #include <vector>
 #include <algorithm>
+//#include <notMain567a>
+//#include <notMain678en>
+//#include <notMain678de>
+//#include "../../567/src/notMain567a.cpp"
+#include "notMain567a.h"  // nur Header
 
 // Hier die modularisierten Funktionen der *6* Programme einbinden
-void run567();
-void runEcon567();
 
 void mode_text() {
     std::set<int> allowed = {3,4,5,6,7,8,9};
@@ -34,9 +37,9 @@ void mode_text() {
     // Spezielle Kombinationen prüfen
     if (selVec == std::vector<int>{5,6,7}) {
         std::cout << "Starte 567/src/main.cpp Logik...\n";
-        run567();
+        start567a();
     } else if (selVec == std::vector<int>{6,7,8}) {
         std::cout << "Starte econ567/src/main.cpp Logik...\n";
-        runEcon567();
+        start567a();
     }
 }

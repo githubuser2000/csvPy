@@ -1,5 +1,5 @@
-CMakeFiles/menu.dir/data/data/com.termux/files/home/myRepos/csvPy/econs/567/src/main.cpp.o: \
-  /data/data/com.termux/files/home/myRepos/csvPy/econs/567/src/main.cpp \
+CMakeFiles/menu.dir/data/data/com.termux/files/home/myRepos/csvPy/econs/567/src/notMain567a.cpp.o: \
+  /data/data/com.termux/files/home/myRepos/csvPy/econs/567/src/notMain567a.cpp \
   /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/iostream \
   /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/__config \
   /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/__config_site \
