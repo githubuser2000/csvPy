@@ -1,0 +1,1 @@
+/data/data/com.termux/files/usr/bin/c++ -O2 -g -DNDEBUG -Xlinker --dependency-file=CMakeFiles/rational_space.dir/link.d CMakeFiles/rational_space.dir/src/main.cpp.o CMakeFiles/rational_space.dir/src/rational.cpp.o CMakeFiles/rational_space.dir/src/space.cpp.o -o /data/data/com.termux/files/home/myRepos/csvPy/econs/bin/rational_space

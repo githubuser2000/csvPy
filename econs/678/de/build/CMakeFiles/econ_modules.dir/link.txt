@@ -1,0 +1,2 @@
+/data/data/com.termux/files/usr/bin/llvm-ar qc libecon_modules.a CMakeFiles/econ_modules.dir/src/text.cpp.o CMakeFiles/econ_modules.dir/src/rational.cpp.o CMakeFiles/econ_modules.dir/src/space.cpp.o
+/data/data/com.termux/files/usr/bin/llvm-ranlib libecon_modules.a
