@@ -4,7 +4,7 @@
 # compile CXX with /data/data/com.termux/files/usr/bin/c++
 CXX_DEFINES = -DUSE_NCURSES
 
-CXX_INCLUDES = -I/data/data/com.termux/files/home/myRepos/csvPy/econs/menue/include
+CXX_INCLUDES = -I/data/data/com.termux/files/home/myRepos/csvPy/econs/menu/include
 
 CXX_FLAGS = -O2 -g -DNDEBUG -std=gnu++20
 

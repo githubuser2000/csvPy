@@ -4,12 +4,6 @@
 #include <set>
 #include <sstream>
 #include <string>
-#include <vector>
-#include <algorithm>
-
-// Hier die modularisierten Funktionen der *6* Programme einbinden
-void run567();
-void runEcon567();
 
 void mode_text() {
     std::set<int> allowed = {3,4,5,6,7,8,9};
@@ -27,16 +21,4 @@ void mode_text() {
     std::cout << "Auswahl: ";
     for (int x : selected) std::cout << x << " ";
     std::cout << "\nBitmaske: " << toBitmask(selected) << "\n";
-
-    std::vector<int> selVec(selected.begin(), selected.end());
-    std::sort(selVec.begin(), selVec.end());
-
-    // Spezielle Kombinationen prüfen
-    if (selVec == std::vector<int>{5,6,7}) {
-        std::cout << "Starte 567/src/main.cpp Logik...\n";
-        run567();
-    } else if (selVec == std::vector<int>{6,7,8}) {
-        std::cout << "Starte econ567/src/main.cpp Logik...\n";
-        runEcon567();
-    }
 }

@@ -12,6 +12,22 @@ set(CMAKE_RUNTIME_OUTPUT_DIRECTORY ${CMAKE_SOURCE_DIR}/bin)
 # Standardmäßig USE_NCURSES aktivieren
 option(USE_NCURSES "Enable ncurses TUI" ON)
 
+add_executable(menu
+    src/mode_text.cpp
+    ../567/src/main.cpp
+    ../678/en/src/main.cpp
+    ../678/de/src/main.cpp
+    ../econ567/src/main.cpp
+    ../567/include/math_utils.h
+)
+
+# Header-Verzeichnisse hinzufügen
+target_include_directories(menu PRIVATE
+    ../567/include
+    ../678/en/include
+    ../678/de/include
+    ../econ567/include
+)
 
 # --- Includes ---
 include_directories(${PROJECT_SOURCE_DIR}/include)

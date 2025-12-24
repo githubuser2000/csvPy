@@ -54,19 +54,21 @@ RM = /data/data/com.termux/files/usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /data/data/com.termux/files/home/myRepos/csvPy/econs/menue
+CMAKE_SOURCE_DIR = /data/data/com.termux/files/home/myRepos/csvPy/econs/menu
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /data/data/com.termux/files/home/myRepos/csvPy/econs/menue/build
+CMAKE_BINARY_DIR = /data/data/com.termux/files/home/myRepos/csvPy/econs/menu/build
 
 #=============================================================================
 # Directory level rules for the build root directory
 
 # The main recursive "all" target.
+all: CMakeFiles/menu.dir/all
 all: CMakeFiles/econ49.dir/all
 .PHONY : all
 
 # The main recursive "codegen" target.
+codegen: CMakeFiles/menu.dir/codegen
 codegen: CMakeFiles/econ49.dir/codegen
 .PHONY : codegen
 
@@ -75,8 +77,41 @@ preinstall:
 .PHONY : preinstall
 
 # The main recursive "clean" target.
+clean: CMakeFiles/menu.dir/clean
 clean: CMakeFiles/econ49.dir/clean
 .PHONY : clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/menu.dir
+
+# All Build rule for target.
+CMakeFiles/menu.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/menu.dir/build.make CMakeFiles/menu.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/menu.dir/build.make CMakeFiles/menu.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/data/data/com.termux/files/home/myRepos/csvPy/econs/menu/build/CMakeFiles --progress-num=7,8,9,10,11,12 "Built target menu"
+.PHONY : CMakeFiles/menu.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/menu.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /data/data/com.termux/files/home/myRepos/csvPy/econs/menu/build/CMakeFiles 6
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/menu.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /data/data/com.termux/files/home/myRepos/csvPy/econs/menu/build/CMakeFiles 0
+.PHONY : CMakeFiles/menu.dir/rule
+
+# Convenience name for target.
+menu: CMakeFiles/menu.dir/rule
+.PHONY : menu
+
+# codegen rule for target.
+CMakeFiles/menu.dir/codegen:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/menu.dir/build.make CMakeFiles/menu.dir/codegen
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/data/data/com.termux/files/home/myRepos/csvPy/econs/menu/build/CMakeFiles --progress-num=7,8,9,10,11,12 "Finished codegen for target menu"
+.PHONY : CMakeFiles/menu.dir/codegen
+
+# clean rule for target.
+CMakeFiles/menu.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/menu.dir/build.make CMakeFiles/menu.dir/clean
+.PHONY : CMakeFiles/menu.dir/clean
 
 #=============================================================================
 # Target rules for target CMakeFiles/econ49.dir
@@ -85,14 +120,14 @@ clean: CMakeFiles/econ49.dir/clean
 CMakeFiles/econ49.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/econ49.dir/build.make CMakeFiles/econ49.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/econ49.dir/build.make CMakeFiles/econ49.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/data/data/com.termux/files/home/myRepos/csvPy/econs/menue/build/CMakeFiles --progress-num=1,2,3,4,5,6 "Built target econ49"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/data/data/com.termux/files/home/myRepos/csvPy/econs/menu/build/CMakeFiles --progress-num=1,2,3,4,5,6 "Built target econ49"
 .PHONY : CMakeFiles/econ49.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/econ49.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /data/data/com.termux/files/home/myRepos/csvPy/econs/menue/build/CMakeFiles 6
+	$(CMAKE_COMMAND) -E cmake_progress_start /data/data/com.termux/files/home/myRepos/csvPy/econs/menu/build/CMakeFiles 6
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/econ49.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /data/data/com.termux/files/home/myRepos/csvPy/econs/menue/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /data/data/com.termux/files/home/myRepos/csvPy/econs/menu/build/CMakeFiles 0
 .PHONY : CMakeFiles/econ49.dir/rule
 
 # Convenience name for target.
@@ -102,7 +137,7 @@ econ49: CMakeFiles/econ49.dir/rule
 # codegen rule for target.
 CMakeFiles/econ49.dir/codegen:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/econ49.dir/build.make CMakeFiles/econ49.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/data/data/com.termux/files/home/myRepos/csvPy/econs/menue/build/CMakeFiles --progress-num=1,2,3,4,5,6 "Finished codegen for target econ49"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/data/data/com.termux/files/home/myRepos/csvPy/econs/menu/build/CMakeFiles --progress-num=1,2,3,4,5,6 "Finished codegen for target econ49"
 .PHONY : CMakeFiles/econ49.dir/codegen
 
 # clean rule for target.

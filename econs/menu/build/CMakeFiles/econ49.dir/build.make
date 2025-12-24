@@ -53,10 +53,10 @@ RM = /data/data/com.termux/files/usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /data/data/com.termux/files/home/myRepos/csvPy/econs/menue
+CMAKE_SOURCE_DIR = /data/data/com.termux/files/home/myRepos/csvPy/econs/menu
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /data/data/com.termux/files/home/myRepos/csvPy/econs/menue/build
+CMAKE_BINARY_DIR = /data/data/com.termux/files/home/myRepos/csvPy/econs/menu/build
 
 # Include any dependencies generated for this target.
 include CMakeFiles/econ49.dir/depend.make
@@ -73,74 +73,74 @@ CMakeFiles/econ49.dir/codegen:
 .PHONY : CMakeFiles/econ49.dir/codegen
 
 CMakeFiles/econ49.dir/src/main.cpp.o: CMakeFiles/econ49.dir/flags.make
-CMakeFiles/econ49.dir/src/main.cpp.o: /data/data/com.termux/files/home/myRepos/csvPy/econs/menue/src/main.cpp
+CMakeFiles/econ49.dir/src/main.cpp.o: /data/data/com.termux/files/home/myRepos/csvPy/econs/menu/src/main.cpp
 CMakeFiles/econ49.dir/src/main.cpp.o: CMakeFiles/econ49.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/data/data/com.termux/files/home/myRepos/csvPy/econs/menue/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/econ49.dir/src/main.cpp.o"
-	/data/data/com.termux/files/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/econ49.dir/src/main.cpp.o -MF CMakeFiles/econ49.dir/src/main.cpp.o.d -o CMakeFiles/econ49.dir/src/main.cpp.o -c /data/data/com.termux/files/home/myRepos/csvPy/econs/menue/src/main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/data/data/com.termux/files/home/myRepos/csvPy/econs/menu/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/econ49.dir/src/main.cpp.o"
+	/data/data/com.termux/files/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/econ49.dir/src/main.cpp.o -MF CMakeFiles/econ49.dir/src/main.cpp.o.d -o CMakeFiles/econ49.dir/src/main.cpp.o -c /data/data/com.termux/files/home/myRepos/csvPy/econs/menu/src/main.cpp
 
 CMakeFiles/econ49.dir/src/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/econ49.dir/src/main.cpp.i"
-	/data/data/com.termux/files/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /data/data/com.termux/files/home/myRepos/csvPy/econs/menue/src/main.cpp > CMakeFiles/econ49.dir/src/main.cpp.i
+	/data/data/com.termux/files/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /data/data/com.termux/files/home/myRepos/csvPy/econs/menu/src/main.cpp > CMakeFiles/econ49.dir/src/main.cpp.i
 
 CMakeFiles/econ49.dir/src/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/econ49.dir/src/main.cpp.s"
-	/data/data/com.termux/files/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /data/data/com.termux/files/home/myRepos/csvPy/econs/menue/src/main.cpp -o CMakeFiles/econ49.dir/src/main.cpp.s
+	/data/data/com.termux/files/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /data/data/com.termux/files/home/myRepos/csvPy/econs/menu/src/main.cpp -o CMakeFiles/econ49.dir/src/main.cpp.s
 
 CMakeFiles/econ49.dir/src/bitmask.cpp.o: CMakeFiles/econ49.dir/flags.make
-CMakeFiles/econ49.dir/src/bitmask.cpp.o: /data/data/com.termux/files/home/myRepos/csvPy/econs/menue/src/bitmask.cpp
+CMakeFiles/econ49.dir/src/bitmask.cpp.o: /data/data/com.termux/files/home/myRepos/csvPy/econs/menu/src/bitmask.cpp
 CMakeFiles/econ49.dir/src/bitmask.cpp.o: CMakeFiles/econ49.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/data/data/com.termux/files/home/myRepos/csvPy/econs/menue/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/econ49.dir/src/bitmask.cpp.o"
-	/data/data/com.termux/files/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/econ49.dir/src/bitmask.cpp.o -MF CMakeFiles/econ49.dir/src/bitmask.cpp.o.d -o CMakeFiles/econ49.dir/src/bitmask.cpp.o -c /data/data/com.termux/files/home/myRepos/csvPy/econs/menue/src/bitmask.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/data/data/com.termux/files/home/myRepos/csvPy/econs/menu/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/econ49.dir/src/bitmask.cpp.o"
+	/data/data/com.termux/files/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/econ49.dir/src/bitmask.cpp.o -MF CMakeFiles/econ49.dir/src/bitmask.cpp.o.d -o CMakeFiles/econ49.dir/src/bitmask.cpp.o -c /data/data/com.termux/files/home/myRepos/csvPy/econs/menu/src/bitmask.cpp
 
 CMakeFiles/econ49.dir/src/bitmask.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/econ49.dir/src/bitmask.cpp.i"
-	/data/data/com.termux/files/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /data/data/com.termux/files/home/myRepos/csvPy/econs/menue/src/bitmask.cpp > CMakeFiles/econ49.dir/src/bitmask.cpp.i
+	/data/data/com.termux/files/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /data/data/com.termux/files/home/myRepos/csvPy/econs/menu/src/bitmask.cpp > CMakeFiles/econ49.dir/src/bitmask.cpp.i
 
 CMakeFiles/econ49.dir/src/bitmask.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/econ49.dir/src/bitmask.cpp.s"
-	/data/data/com.termux/files/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /data/data/com.termux/files/home/myRepos/csvPy/econs/menue/src/bitmask.cpp -o CMakeFiles/econ49.dir/src/bitmask.cpp.s
+	/data/data/com.termux/files/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /data/data/com.termux/files/home/myRepos/csvPy/econs/menu/src/bitmask.cpp -o CMakeFiles/econ49.dir/src/bitmask.cpp.s
 
 CMakeFiles/econ49.dir/src/mode_text.cpp.o: CMakeFiles/econ49.dir/flags.make
-CMakeFiles/econ49.dir/src/mode_text.cpp.o: /data/data/com.termux/files/home/myRepos/csvPy/econs/menue/src/mode_text.cpp
+CMakeFiles/econ49.dir/src/mode_text.cpp.o: /data/data/com.termux/files/home/myRepos/csvPy/econs/menu/src/mode_text.cpp
 CMakeFiles/econ49.dir/src/mode_text.cpp.o: CMakeFiles/econ49.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/data/data/com.termux/files/home/myRepos/csvPy/econs/menue/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/econ49.dir/src/mode_text.cpp.o"
-	/data/data/com.termux/files/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/econ49.dir/src/mode_text.cpp.o -MF CMakeFiles/econ49.dir/src/mode_text.cpp.o.d -o CMakeFiles/econ49.dir/src/mode_text.cpp.o -c /data/data/com.termux/files/home/myRepos/csvPy/econs/menue/src/mode_text.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/data/data/com.termux/files/home/myRepos/csvPy/econs/menu/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/econ49.dir/src/mode_text.cpp.o"
+	/data/data/com.termux/files/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/econ49.dir/src/mode_text.cpp.o -MF CMakeFiles/econ49.dir/src/mode_text.cpp.o.d -o CMakeFiles/econ49.dir/src/mode_text.cpp.o -c /data/data/com.termux/files/home/myRepos/csvPy/econs/menu/src/mode_text.cpp
 
 CMakeFiles/econ49.dir/src/mode_text.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/econ49.dir/src/mode_text.cpp.i"
-	/data/data/com.termux/files/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /data/data/com.termux/files/home/myRepos/csvPy/econs/menue/src/mode_text.cpp > CMakeFiles/econ49.dir/src/mode_text.cpp.i
+	/data/data/com.termux/files/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /data/data/com.termux/files/home/myRepos/csvPy/econs/menu/src/mode_text.cpp > CMakeFiles/econ49.dir/src/mode_text.cpp.i
 
 CMakeFiles/econ49.dir/src/mode_text.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/econ49.dir/src/mode_text.cpp.s"
-	/data/data/com.termux/files/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /data/data/com.termux/files/home/myRepos/csvPy/econs/menue/src/mode_text.cpp -o CMakeFiles/econ49.dir/src/mode_text.cpp.s
+	/data/data/com.termux/files/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /data/data/com.termux/files/home/myRepos/csvPy/econs/menu/src/mode_text.cpp -o CMakeFiles/econ49.dir/src/mode_text.cpp.s
 
 CMakeFiles/econ49.dir/src/mode_toggle.cpp.o: CMakeFiles/econ49.dir/flags.make
-CMakeFiles/econ49.dir/src/mode_toggle.cpp.o: /data/data/com.termux/files/home/myRepos/csvPy/econs/menue/src/mode_toggle.cpp
+CMakeFiles/econ49.dir/src/mode_toggle.cpp.o: /data/data/com.termux/files/home/myRepos/csvPy/econs/menu/src/mode_toggle.cpp
 CMakeFiles/econ49.dir/src/mode_toggle.cpp.o: CMakeFiles/econ49.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/data/data/com.termux/files/home/myRepos/csvPy/econs/menue/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/econ49.dir/src/mode_toggle.cpp.o"
-	/data/data/com.termux/files/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/econ49.dir/src/mode_toggle.cpp.o -MF CMakeFiles/econ49.dir/src/mode_toggle.cpp.o.d -o CMakeFiles/econ49.dir/src/mode_toggle.cpp.o -c /data/data/com.termux/files/home/myRepos/csvPy/econs/menue/src/mode_toggle.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/data/data/com.termux/files/home/myRepos/csvPy/econs/menu/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/econ49.dir/src/mode_toggle.cpp.o"
+	/data/data/com.termux/files/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/econ49.dir/src/mode_toggle.cpp.o -MF CMakeFiles/econ49.dir/src/mode_toggle.cpp.o.d -o CMakeFiles/econ49.dir/src/mode_toggle.cpp.o -c /data/data/com.termux/files/home/myRepos/csvPy/econs/menu/src/mode_toggle.cpp
 
 CMakeFiles/econ49.dir/src/mode_toggle.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/econ49.dir/src/mode_toggle.cpp.i"
-	/data/data/com.termux/files/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /data/data/com.termux/files/home/myRepos/csvPy/econs/menue/src/mode_toggle.cpp > CMakeFiles/econ49.dir/src/mode_toggle.cpp.i
+	/data/data/com.termux/files/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /data/data/com.termux/files/home/myRepos/csvPy/econs/menu/src/mode_toggle.cpp > CMakeFiles/econ49.dir/src/mode_toggle.cpp.i
 
 CMakeFiles/econ49.dir/src/mode_toggle.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/econ49.dir/src/mode_toggle.cpp.s"
-	/data/data/com.termux/files/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /data/data/com.termux/files/home/myRepos/csvPy/econs/menue/src/mode_toggle.cpp -o CMakeFiles/econ49.dir/src/mode_toggle.cpp.s
+	/data/data/com.termux/files/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /data/data/com.termux/files/home/myRepos/csvPy/econs/menu/src/mode_toggle.cpp -o CMakeFiles/econ49.dir/src/mode_toggle.cpp.s
 
 CMakeFiles/econ49.dir/src/mode_ncurses.cpp.o: CMakeFiles/econ49.dir/flags.make
-CMakeFiles/econ49.dir/src/mode_ncurses.cpp.o: /data/data/com.termux/files/home/myRepos/csvPy/econs/menue/src/mode_ncurses.cpp
+CMakeFiles/econ49.dir/src/mode_ncurses.cpp.o: /data/data/com.termux/files/home/myRepos/csvPy/econs/menu/src/mode_ncurses.cpp
 CMakeFiles/econ49.dir/src/mode_ncurses.cpp.o: CMakeFiles/econ49.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/data/data/com.termux/files/home/myRepos/csvPy/econs/menue/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/econ49.dir/src/mode_ncurses.cpp.o"
-	/data/data/com.termux/files/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/econ49.dir/src/mode_ncurses.cpp.o -MF CMakeFiles/econ49.dir/src/mode_ncurses.cpp.o.d -o CMakeFiles/econ49.dir/src/mode_ncurses.cpp.o -c /data/data/com.termux/files/home/myRepos/csvPy/econs/menue/src/mode_ncurses.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/data/data/com.termux/files/home/myRepos/csvPy/econs/menu/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/econ49.dir/src/mode_ncurses.cpp.o"
+	/data/data/com.termux/files/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/econ49.dir/src/mode_ncurses.cpp.o -MF CMakeFiles/econ49.dir/src/mode_ncurses.cpp.o.d -o CMakeFiles/econ49.dir/src/mode_ncurses.cpp.o -c /data/data/com.termux/files/home/myRepos/csvPy/econs/menu/src/mode_ncurses.cpp
 
 CMakeFiles/econ49.dir/src/mode_ncurses.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/econ49.dir/src/mode_ncurses.cpp.i"
-	/data/data/com.termux/files/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /data/data/com.termux/files/home/myRepos/csvPy/econs/menue/src/mode_ncurses.cpp > CMakeFiles/econ49.dir/src/mode_ncurses.cpp.i
+	/data/data/com.termux/files/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /data/data/com.termux/files/home/myRepos/csvPy/econs/menu/src/mode_ncurses.cpp > CMakeFiles/econ49.dir/src/mode_ncurses.cpp.i
 
 CMakeFiles/econ49.dir/src/mode_ncurses.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/econ49.dir/src/mode_ncurses.cpp.s"
-	/data/data/com.termux/files/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /data/data/com.termux/files/home/myRepos/csvPy/econs/menue/src/mode_ncurses.cpp -o CMakeFiles/econ49.dir/src/mode_ncurses.cpp.s
+	/data/data/com.termux/files/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /data/data/com.termux/files/home/myRepos/csvPy/econs/menu/src/mode_ncurses.cpp -o CMakeFiles/econ49.dir/src/mode_ncurses.cpp.s
 
 # Object files for target econ49
 econ49_OBJECTS = \
@@ -153,22 +153,22 @@ econ49_OBJECTS = \
 # External object files for target econ49
 econ49_EXTERNAL_OBJECTS =
 
-/data/data/com.termux/files/home/myRepos/csvPy/econs/menue/bin/econ49: CMakeFiles/econ49.dir/src/main.cpp.o
-/data/data/com.termux/files/home/myRepos/csvPy/econs/menue/bin/econ49: CMakeFiles/econ49.dir/src/bitmask.cpp.o
-/data/data/com.termux/files/home/myRepos/csvPy/econs/menue/bin/econ49: CMakeFiles/econ49.dir/src/mode_text.cpp.o
-/data/data/com.termux/files/home/myRepos/csvPy/econs/menue/bin/econ49: CMakeFiles/econ49.dir/src/mode_toggle.cpp.o
-/data/data/com.termux/files/home/myRepos/csvPy/econs/menue/bin/econ49: CMakeFiles/econ49.dir/src/mode_ncurses.cpp.o
-/data/data/com.termux/files/home/myRepos/csvPy/econs/menue/bin/econ49: CMakeFiles/econ49.dir/build.make
-/data/data/com.termux/files/home/myRepos/csvPy/econs/menue/bin/econ49: CMakeFiles/econ49.dir/compiler_depend.ts
-/data/data/com.termux/files/home/myRepos/csvPy/econs/menue/bin/econ49: CMakeFiles/econ49.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/data/data/com.termux/files/home/myRepos/csvPy/econs/menue/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking CXX executable /data/data/com.termux/files/home/myRepos/csvPy/econs/menue/bin/econ49"
+/data/data/com.termux/files/home/myRepos/csvPy/econs/menu/bin/econ49: CMakeFiles/econ49.dir/src/main.cpp.o
+/data/data/com.termux/files/home/myRepos/csvPy/econs/menu/bin/econ49: CMakeFiles/econ49.dir/src/bitmask.cpp.o
+/data/data/com.termux/files/home/myRepos/csvPy/econs/menu/bin/econ49: CMakeFiles/econ49.dir/src/mode_text.cpp.o
+/data/data/com.termux/files/home/myRepos/csvPy/econs/menu/bin/econ49: CMakeFiles/econ49.dir/src/mode_toggle.cpp.o
+/data/data/com.termux/files/home/myRepos/csvPy/econs/menu/bin/econ49: CMakeFiles/econ49.dir/src/mode_ncurses.cpp.o
+/data/data/com.termux/files/home/myRepos/csvPy/econs/menu/bin/econ49: CMakeFiles/econ49.dir/build.make
+/data/data/com.termux/files/home/myRepos/csvPy/econs/menu/bin/econ49: CMakeFiles/econ49.dir/compiler_depend.ts
+/data/data/com.termux/files/home/myRepos/csvPy/econs/menu/bin/econ49: CMakeFiles/econ49.dir/link.txt
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/data/data/com.termux/files/home/myRepos/csvPy/econs/menu/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking CXX executable /data/data/com.termux/files/home/myRepos/csvPy/econs/menu/bin/econ49"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/econ49.dir/link.txt --verbose=$(VERBOSE)
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold "Kopiere Binary nach /data/data/com.termux/files/home/myRepos/csvPy/econs/bin"
 	/data/data/com.termux/files/usr/bin/cmake -E make_directory /data/data/com.termux/files/home/myRepos/csvPy/econs/bin
-	/data/data/com.termux/files/usr/bin/cmake -E copy /data/data/com.termux/files/home/myRepos/csvPy/econs/menue/bin/econ49 /data/data/com.termux/files/home/myRepos/csvPy/econs/bin
+	/data/data/com.termux/files/usr/bin/cmake -E copy /data/data/com.termux/files/home/myRepos/csvPy/econs/menu/bin/econ49 /data/data/com.termux/files/home/myRepos/csvPy/econs/bin
 
 # Rule to build all files generated by this target.
-CMakeFiles/econ49.dir/build: /data/data/com.termux/files/home/myRepos/csvPy/econs/menue/bin/econ49
+CMakeFiles/econ49.dir/build: /data/data/com.termux/files/home/myRepos/csvPy/econs/menu/bin/econ49
 .PHONY : CMakeFiles/econ49.dir/build
 
 CMakeFiles/econ49.dir/clean:
@@ -176,6 +176,6 @@ CMakeFiles/econ49.dir/clean:
 .PHONY : CMakeFiles/econ49.dir/clean
 
 CMakeFiles/econ49.dir/depend:
-	cd /data/data/com.termux/files/home/myRepos/csvPy/econs/menue/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /data/data/com.termux/files/home/myRepos/csvPy/econs/menue /data/data/com.termux/files/home/myRepos/csvPy/econs/menue /data/data/com.termux/files/home/myRepos/csvPy/econs/menue/build /data/data/com.termux/files/home/myRepos/csvPy/econs/menue/build /data/data/com.termux/files/home/myRepos/csvPy/econs/menue/build/CMakeFiles/econ49.dir/DependInfo.cmake "--color=$(COLOR)" econ49
+	cd /data/data/com.termux/files/home/myRepos/csvPy/econs/menu/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /data/data/com.termux/files/home/myRepos/csvPy/econs/menu /data/data/com.termux/files/home/myRepos/csvPy/econs/menu /data/data/com.termux/files/home/myRepos/csvPy/econs/menu/build /data/data/com.termux/files/home/myRepos/csvPy/econs/menu/build /data/data/com.termux/files/home/myRepos/csvPy/econs/menu/build/CMakeFiles/econ49.dir/DependInfo.cmake "--color=$(COLOR)" econ49
 .PHONY : CMakeFiles/econ49.dir/depend
 

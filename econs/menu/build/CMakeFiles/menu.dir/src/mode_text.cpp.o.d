@@ -1,6 +1,7 @@
-CMakeFiles/econ49.dir/src/bitmask.cpp.o: \
-  /data/data/com.termux/files/home/myRepos/csvPy/econs/menue/src/bitmask.cpp \
-  /data/data/com.termux/files/home/myRepos/csvPy/econs/menue/include/bitmask.h \
+CMakeFiles/menu.dir/src/mode_text.cpp.o: \
+  /data/data/com.termux/files/home/myRepos/csvPy/econs/menu/src/mode_text.cpp \
+  /data/data/com.termux/files/home/myRepos/csvPy/econs/menu/include/mode_text.h \
+  /data/data/com.termux/files/home/myRepos/csvPy/econs/menu/include/bitmask.h \
   /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/set \
   /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/__algorithm/equal.h \
   /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/__algorithm/comp.h \
@@ -808,4 +809,64 @@ CMakeFiles/econ49.dir/src/bitmask.cpp.o: \
   /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/__thread/id.h \
   /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/system_error \
   /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/streambuf \
-  /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/cstdarg
+  /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/cstdarg \
+  /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/iostream \
+  /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/istream \
+  /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/__ostream/basic_ostream.h \
+  /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/__ostream/put_character_sequence.h \
+  /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/bitset \
+  /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/__type_traits/is_char_like_type.h \
+  /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/ostream \
+  /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/format \
+  /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/__format/buffer.h \
+  /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/__format/concepts.h \
+  /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/__format/format_parse_context.h \
+  /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/__format/format_error.h \
+  /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/__fwd/format.h \
+  /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/__format/format_to_n_result.h \
+  /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/__format/container_adaptor.h \
+  /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/__format/formatter.h \
+  /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/__format/range_default_formatter.h \
+  /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/__chrono/statically_widen.h \
+  /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/__format/range_formatter.h \
+  /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/__format/format_context.h \
+  /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/__format/format_arg.h \
+  /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/__format/format_arg_store.h \
+  /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/__format/format_args.h \
+  /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/__format/formatter_output.h \
+  /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/__format/parser_std_format_spec.h \
+  /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/__format/format_string.h \
+  /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/__format/unicode.h \
+  /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/__format/extended_grapheme_cluster_table.h \
+  /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/__format/indic_conjunct_break_table.h \
+  /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/__format/width_estimation_table.h \
+  /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/__fwd/queue.h \
+  /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/__fwd/deque.h \
+  /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/__fwd/stack.h \
+  /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/__ranges/ref_view.h \
+  /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/__format/escaped_output_table.h \
+  /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/__format/format_functions.h \
+  /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/__format/formatter_bool.h \
+  /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/__format/formatter_integral.h \
+  /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/__charconv/to_chars_integral.h \
+  /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/__charconv/tables.h \
+  /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/__charconv/to_chars_base_10.h \
+  /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/__charconv/to_chars_result.h \
+  /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/__charconv/traits.h \
+  /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/__type_traits/make_32_64_or_128_bit.h \
+  /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/__format/formatter_char.h \
+  /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/__format/write_escaped.h \
+  /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/__format/formatter_floating_point.h \
+  /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/__charconv/chars_format.h \
+  /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/__utility/to_underlying.h \
+  /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/__charconv/to_chars_floating_point.h \
+  /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/__format/formatter_integer.h \
+  /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/__format/formatter_pointer.h \
+  /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/__format/formatter_string.h \
+  /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/__format/formatter_tuple.h \
+  /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/queue \
+  /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/deque \
+  /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/stack \
+  /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/print \
+  /data/data/com.termux/files/usr/bin/../../usr/include/unistd.h \
+  /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/sstream

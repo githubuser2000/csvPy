@@ -1,9 +1,16 @@
 #include <iostream>
 #include <vector>
 #include <string>
+// Vorher
+//#include "../567/include/math_utils.h"
+// Nachher
 #include "math_utils.h"
-
 using namespace std;
+
+void run567() {
+    std::cout << "567 läuft...\n";
+    // Hauptlogik
+}
 
 int main() {
     auto [n1, n2, n3, common] = generateThreeUnique(42);

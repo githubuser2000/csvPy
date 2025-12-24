@@ -7,9 +7,12 @@
 #include <vector>
 #include <algorithm>
 
-// Hier die modularisierten Funktionen der *6* Programme einbinden
-void run567();
-void runEcon567();
+// Simuliert das "eigenständige Programm"
+void meinEigenesProgramm() {
+    std::cout << "=== Eigenständiges Programm läuft jetzt ===\n";
+    // Hier kommt die ursprüngliche Logik des Programms hin
+    // z.B. Eingaben, Berechnungen, Ausgabe etc.
+}
 
 void mode_text() {
     std::set<int> allowed = {3,4,5,6,7,8,9};
@@ -28,15 +31,15 @@ void mode_text() {
     for (int x : selected) std::cout << x << " ";
     std::cout << "\nBitmaske: " << toBitmask(selected) << "\n";
 
+    // Prüfen auf spezielle Kombinationen
     std::vector<int> selVec(selected.begin(), selected.end());
     std::sort(selVec.begin(), selVec.end());
 
-    // Spezielle Kombinationen prüfen
-    if (selVec == std::vector<int>{5,6,7}) {
-        std::cout << "Starte 567/src/main.cpp Logik...\n";
-        run567();
-    } else if (selVec == std::vector<int>{6,7,8}) {
-        std::cout << "Starte econ567/src/main.cpp Logik...\n";
-        runEcon567();
+    std::vector<int> combo1 = {5,6,7};
+    std::vector<int> combo2 = {6,7,8};
+
+    if (selVec == combo1 || selVec == combo2) {
+        std::cout << "Starte Programm-Logik innerhalb von C++...\n";
+        meinEigenesProgramm(); // Funktionsaufruf
     }
 }

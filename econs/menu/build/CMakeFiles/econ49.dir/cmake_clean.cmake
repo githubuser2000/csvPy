@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "/data/data/com.termux/files/home/myRepos/csvPy/econs/menue/bin/econ49"
-  "/data/data/com.termux/files/home/myRepos/csvPy/econs/menue/bin/econ49.pdb"
+  "/data/data/com.termux/files/home/myRepos/csvPy/econs/menu/bin/econ49"
+  "/data/data/com.termux/files/home/myRepos/csvPy/econs/menu/bin/econ49.pdb"
   "CMakeFiles/econ49.dir/link.d"
   "CMakeFiles/econ49.dir/src/bitmask.cpp.o"
   "CMakeFiles/econ49.dir/src/bitmask.cpp.o.d"
