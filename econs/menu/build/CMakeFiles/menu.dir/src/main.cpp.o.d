@@ -866,5 +866,7 @@ CMakeFiles/menu.dir/src/main.cpp.o: \
   /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/print \
   /data/data/com.termux/files/usr/bin/../../usr/include/unistd.h \
   /data/data/com.termux/files/home/myRepos/csvPy/econs/menu/include/mode_text.h \
+  /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/set \
+  /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/__tree \
   /data/data/com.termux/files/home/myRepos/csvPy/econs/menu/include/mode_toggle.h \
   /data/data/com.termux/files/home/myRepos/csvPy/econs/menu/include/mode_ncurses.h
