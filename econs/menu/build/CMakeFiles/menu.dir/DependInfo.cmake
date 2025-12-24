@@ -8,6 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
+  "/data/data/com.termux/files/home/myRepos/csvPy/econs/567/src/math_utils.cpp" "CMakeFiles/menu.dir/data/data/com.termux/files/home/myRepos/csvPy/econs/567/src/math_utils.cpp.o" "gcc" "CMakeFiles/menu.dir/data/data/com.termux/files/home/myRepos/csvPy/econs/567/src/math_utils.cpp.o.d"
   "/data/data/com.termux/files/home/myRepos/csvPy/econs/567/src/notMain567a.cpp" "CMakeFiles/menu.dir/data/data/com.termux/files/home/myRepos/csvPy/econs/567/src/notMain567a.cpp.o" "gcc" "CMakeFiles/menu.dir/data/data/com.termux/files/home/myRepos/csvPy/econs/567/src/notMain567a.cpp.o.d"
   "/data/data/com.termux/files/home/myRepos/csvPy/econs/menu/src/bitmask.cpp" "CMakeFiles/menu.dir/src/bitmask.cpp.o" "gcc" "CMakeFiles/menu.dir/src/bitmask.cpp.o.d"
   "/data/data/com.termux/files/home/myRepos/csvPy/econs/menu/src/main.cpp" "CMakeFiles/menu.dir/src/main.cpp.o" "gcc" "CMakeFiles/menu.dir/src/main.cpp.o.d"

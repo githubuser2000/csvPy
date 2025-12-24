@@ -9,8 +9,8 @@
 //#include <notMain567a>
 //#include <notMain678en>
 //#include <notMain678de>
-//#include "../../567/src/notMain567a.cpp"
-#include "notMain567a.h"  // nur Header
+#include <notMain567a.h>
+//#include <notMain567a.h>  // nur Header
 
 // Hier die modularisierten Funktionen der *6* Programme einbinden
 

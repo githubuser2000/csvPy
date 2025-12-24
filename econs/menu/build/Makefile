@@ -129,18 +129,29 @@ menu/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/menu.dir/build.make CMakeFiles/menu.dir/build
 .PHONY : menu/fast
 
-#=============================================================================
-# Target rules for targets named econ49
+data/data/com.termux/files/home/myRepos/csvPy/econs/567/src/math_utils.o: data/data/com.termux/files/home/myRepos/csvPy/econs/567/src/math_utils.cpp.o
+.PHONY : data/data/com.termux/files/home/myRepos/csvPy/econs/567/src/math_utils.o
 
-# Build rule for target.
-econ49: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 econ49
-.PHONY : econ49
+# target to build an object file
+data/data/com.termux/files/home/myRepos/csvPy/econs/567/src/math_utils.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/menu.dir/build.make CMakeFiles/menu.dir/data/data/com.termux/files/home/myRepos/csvPy/econs/567/src/math_utils.cpp.o
+.PHONY : data/data/com.termux/files/home/myRepos/csvPy/econs/567/src/math_utils.cpp.o
 
-# fast build rule for target.
-econ49/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/econ49.dir/build.make CMakeFiles/econ49.dir/build
-.PHONY : econ49/fast
+data/data/com.termux/files/home/myRepos/csvPy/econs/567/src/math_utils.i: data/data/com.termux/files/home/myRepos/csvPy/econs/567/src/math_utils.cpp.i
+.PHONY : data/data/com.termux/files/home/myRepos/csvPy/econs/567/src/math_utils.i
+
+# target to preprocess a source file
+data/data/com.termux/files/home/myRepos/csvPy/econs/567/src/math_utils.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/menu.dir/build.make CMakeFiles/menu.dir/data/data/com.termux/files/home/myRepos/csvPy/econs/567/src/math_utils.cpp.i
+.PHONY : data/data/com.termux/files/home/myRepos/csvPy/econs/567/src/math_utils.cpp.i
+
+data/data/com.termux/files/home/myRepos/csvPy/econs/567/src/math_utils.s: data/data/com.termux/files/home/myRepos/csvPy/econs/567/src/math_utils.cpp.s
+.PHONY : data/data/com.termux/files/home/myRepos/csvPy/econs/567/src/math_utils.s
+
+# target to generate assembly for a file
+data/data/com.termux/files/home/myRepos/csvPy/econs/567/src/math_utils.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/menu.dir/build.make CMakeFiles/menu.dir/data/data/com.termux/files/home/myRepos/csvPy/econs/567/src/math_utils.cpp.s
+.PHONY : data/data/com.termux/files/home/myRepos/csvPy/econs/567/src/math_utils.cpp.s
 
 data/data/com.termux/files/home/myRepos/csvPy/econs/567/src/notMain567a.o: data/data/com.termux/files/home/myRepos/csvPy/econs/567/src/notMain567a.cpp.o
 .PHONY : data/data/com.termux/files/home/myRepos/csvPy/econs/567/src/notMain567a.o
@@ -172,7 +183,6 @@ src/bitmask.o: src/bitmask.cpp.o
 # target to build an object file
 src/bitmask.cpp.o:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/menu.dir/build.make CMakeFiles/menu.dir/src/bitmask.cpp.o
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/econ49.dir/build.make CMakeFiles/econ49.dir/src/bitmask.cpp.o
 .PHONY : src/bitmask.cpp.o
 
 src/bitmask.i: src/bitmask.cpp.i
@@ -181,7 +191,6 @@ src/bitmask.i: src/bitmask.cpp.i
 # target to preprocess a source file
 src/bitmask.cpp.i:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/menu.dir/build.make CMakeFiles/menu.dir/src/bitmask.cpp.i
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/econ49.dir/build.make CMakeFiles/econ49.dir/src/bitmask.cpp.i
 .PHONY : src/bitmask.cpp.i
 
 src/bitmask.s: src/bitmask.cpp.s
@@ -190,7 +199,6 @@ src/bitmask.s: src/bitmask.cpp.s
 # target to generate assembly for a file
 src/bitmask.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/menu.dir/build.make CMakeFiles/menu.dir/src/bitmask.cpp.s
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/econ49.dir/build.make CMakeFiles/econ49.dir/src/bitmask.cpp.s
 .PHONY : src/bitmask.cpp.s
 
 src/main.o: src/main.cpp.o
@@ -199,7 +207,6 @@ src/main.o: src/main.cpp.o
 # target to build an object file
 src/main.cpp.o:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/menu.dir/build.make CMakeFiles/menu.dir/src/main.cpp.o
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/econ49.dir/build.make CMakeFiles/econ49.dir/src/main.cpp.o
 .PHONY : src/main.cpp.o
 
 src/main.i: src/main.cpp.i
@@ -208,7 +215,6 @@ src/main.i: src/main.cpp.i
 # target to preprocess a source file
 src/main.cpp.i:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/menu.dir/build.make CMakeFiles/menu.dir/src/main.cpp.i
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/econ49.dir/build.make CMakeFiles/econ49.dir/src/main.cpp.i
 .PHONY : src/main.cpp.i
 
 src/main.s: src/main.cpp.s
@@ -217,7 +223,6 @@ src/main.s: src/main.cpp.s
 # target to generate assembly for a file
 src/main.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/menu.dir/build.make CMakeFiles/menu.dir/src/main.cpp.s
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/econ49.dir/build.make CMakeFiles/econ49.dir/src/main.cpp.s
 .PHONY : src/main.cpp.s
 
 src/mode_ncurses.o: src/mode_ncurses.cpp.o
@@ -226,7 +231,6 @@ src/mode_ncurses.o: src/mode_ncurses.cpp.o
 # target to build an object file
 src/mode_ncurses.cpp.o:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/menu.dir/build.make CMakeFiles/menu.dir/src/mode_ncurses.cpp.o
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/econ49.dir/build.make CMakeFiles/econ49.dir/src/mode_ncurses.cpp.o
 .PHONY : src/mode_ncurses.cpp.o
 
 src/mode_ncurses.i: src/mode_ncurses.cpp.i
@@ -235,7 +239,6 @@ src/mode_ncurses.i: src/mode_ncurses.cpp.i
 # target to preprocess a source file
 src/mode_ncurses.cpp.i:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/menu.dir/build.make CMakeFiles/menu.dir/src/mode_ncurses.cpp.i
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/econ49.dir/build.make CMakeFiles/econ49.dir/src/mode_ncurses.cpp.i
 .PHONY : src/mode_ncurses.cpp.i
 
 src/mode_ncurses.s: src/mode_ncurses.cpp.s
@@ -244,7 +247,6 @@ src/mode_ncurses.s: src/mode_ncurses.cpp.s
 # target to generate assembly for a file
 src/mode_ncurses.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/menu.dir/build.make CMakeFiles/menu.dir/src/mode_ncurses.cpp.s
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/econ49.dir/build.make CMakeFiles/econ49.dir/src/mode_ncurses.cpp.s
 .PHONY : src/mode_ncurses.cpp.s
 
 src/mode_text.o: src/mode_text.cpp.o
@@ -253,7 +255,6 @@ src/mode_text.o: src/mode_text.cpp.o
 # target to build an object file
 src/mode_text.cpp.o:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/menu.dir/build.make CMakeFiles/menu.dir/src/mode_text.cpp.o
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/econ49.dir/build.make CMakeFiles/econ49.dir/src/mode_text.cpp.o
 .PHONY : src/mode_text.cpp.o
 
 src/mode_text.i: src/mode_text.cpp.i
@@ -262,7 +263,6 @@ src/mode_text.i: src/mode_text.cpp.i
 # target to preprocess a source file
 src/mode_text.cpp.i:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/menu.dir/build.make CMakeFiles/menu.dir/src/mode_text.cpp.i
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/econ49.dir/build.make CMakeFiles/econ49.dir/src/mode_text.cpp.i
 .PHONY : src/mode_text.cpp.i
 
 src/mode_text.s: src/mode_text.cpp.s
@@ -271,7 +271,6 @@ src/mode_text.s: src/mode_text.cpp.s
 # target to generate assembly for a file
 src/mode_text.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/menu.dir/build.make CMakeFiles/menu.dir/src/mode_text.cpp.s
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/econ49.dir/build.make CMakeFiles/econ49.dir/src/mode_text.cpp.s
 .PHONY : src/mode_text.cpp.s
 
 src/mode_toggle.o: src/mode_toggle.cpp.o
@@ -280,7 +279,6 @@ src/mode_toggle.o: src/mode_toggle.cpp.o
 # target to build an object file
 src/mode_toggle.cpp.o:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/menu.dir/build.make CMakeFiles/menu.dir/src/mode_toggle.cpp.o
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/econ49.dir/build.make CMakeFiles/econ49.dir/src/mode_toggle.cpp.o
 .PHONY : src/mode_toggle.cpp.o
 
 src/mode_toggle.i: src/mode_toggle.cpp.i
@@ -289,7 +287,6 @@ src/mode_toggle.i: src/mode_toggle.cpp.i
 # target to preprocess a source file
 src/mode_toggle.cpp.i:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/menu.dir/build.make CMakeFiles/menu.dir/src/mode_toggle.cpp.i
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/econ49.dir/build.make CMakeFiles/econ49.dir/src/mode_toggle.cpp.i
 .PHONY : src/mode_toggle.cpp.i
 
 src/mode_toggle.s: src/mode_toggle.cpp.s
@@ -298,7 +295,6 @@ src/mode_toggle.s: src/mode_toggle.cpp.s
 # target to generate assembly for a file
 src/mode_toggle.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/menu.dir/build.make CMakeFiles/menu.dir/src/mode_toggle.cpp.s
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/econ49.dir/build.make CMakeFiles/econ49.dir/src/mode_toggle.cpp.s
 .PHONY : src/mode_toggle.cpp.s
 
 # Help Target
@@ -309,8 +305,10 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
-	@echo "... econ49"
 	@echo "... menu"
+	@echo "... data/data/com.termux/files/home/myRepos/csvPy/econs/567/src/math_utils.o"
+	@echo "... data/data/com.termux/files/home/myRepos/csvPy/econs/567/src/math_utils.i"
+	@echo "... data/data/com.termux/files/home/myRepos/csvPy/econs/567/src/math_utils.s"
 	@echo "... data/data/com.termux/files/home/myRepos/csvPy/econs/567/src/notMain567a.o"
 	@echo "... data/data/com.termux/files/home/myRepos/csvPy/econs/567/src/notMain567a.i"
 	@echo "... data/data/com.termux/files/home/myRepos/csvPy/econs/567/src/notMain567a.s"

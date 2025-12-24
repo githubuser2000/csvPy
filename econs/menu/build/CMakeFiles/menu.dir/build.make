@@ -142,10 +142,24 @@ CMakeFiles/menu.dir/src/mode_toggle.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/menu.dir/src/mode_toggle.cpp.s"
 	/data/data/com.termux/files/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /data/data/com.termux/files/home/myRepos/csvPy/econs/menu/src/mode_toggle.cpp -o CMakeFiles/menu.dir/src/mode_toggle.cpp.s
 
+CMakeFiles/menu.dir/data/data/com.termux/files/home/myRepos/csvPy/econs/567/src/math_utils.cpp.o: CMakeFiles/menu.dir/flags.make
+CMakeFiles/menu.dir/data/data/com.termux/files/home/myRepos/csvPy/econs/567/src/math_utils.cpp.o: /data/data/com.termux/files/home/myRepos/csvPy/econs/567/src/math_utils.cpp
+CMakeFiles/menu.dir/data/data/com.termux/files/home/myRepos/csvPy/econs/567/src/math_utils.cpp.o: CMakeFiles/menu.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/data/data/com.termux/files/home/myRepos/csvPy/econs/menu/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/menu.dir/data/data/com.termux/files/home/myRepos/csvPy/econs/567/src/math_utils.cpp.o"
+	/data/data/com.termux/files/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/menu.dir/data/data/com.termux/files/home/myRepos/csvPy/econs/567/src/math_utils.cpp.o -MF CMakeFiles/menu.dir/data/data/com.termux/files/home/myRepos/csvPy/econs/567/src/math_utils.cpp.o.d -o CMakeFiles/menu.dir/data/data/com.termux/files/home/myRepos/csvPy/econs/567/src/math_utils.cpp.o -c /data/data/com.termux/files/home/myRepos/csvPy/econs/567/src/math_utils.cpp
+
+CMakeFiles/menu.dir/data/data/com.termux/files/home/myRepos/csvPy/econs/567/src/math_utils.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/menu.dir/data/data/com.termux/files/home/myRepos/csvPy/econs/567/src/math_utils.cpp.i"
+	/data/data/com.termux/files/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /data/data/com.termux/files/home/myRepos/csvPy/econs/567/src/math_utils.cpp > CMakeFiles/menu.dir/data/data/com.termux/files/home/myRepos/csvPy/econs/567/src/math_utils.cpp.i
+
+CMakeFiles/menu.dir/data/data/com.termux/files/home/myRepos/csvPy/econs/567/src/math_utils.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/menu.dir/data/data/com.termux/files/home/myRepos/csvPy/econs/567/src/math_utils.cpp.s"
+	/data/data/com.termux/files/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /data/data/com.termux/files/home/myRepos/csvPy/econs/567/src/math_utils.cpp -o CMakeFiles/menu.dir/data/data/com.termux/files/home/myRepos/csvPy/econs/567/src/math_utils.cpp.s
+
 CMakeFiles/menu.dir/data/data/com.termux/files/home/myRepos/csvPy/econs/567/src/notMain567a.cpp.o: CMakeFiles/menu.dir/flags.make
 CMakeFiles/menu.dir/data/data/com.termux/files/home/myRepos/csvPy/econs/567/src/notMain567a.cpp.o: /data/data/com.termux/files/home/myRepos/csvPy/econs/567/src/notMain567a.cpp
 CMakeFiles/menu.dir/data/data/com.termux/files/home/myRepos/csvPy/econs/567/src/notMain567a.cpp.o: CMakeFiles/menu.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/data/data/com.termux/files/home/myRepos/csvPy/econs/menu/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/menu.dir/data/data/com.termux/files/home/myRepos/csvPy/econs/567/src/notMain567a.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/data/data/com.termux/files/home/myRepos/csvPy/econs/menu/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/menu.dir/data/data/com.termux/files/home/myRepos/csvPy/econs/567/src/notMain567a.cpp.o"
 	/data/data/com.termux/files/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/menu.dir/data/data/com.termux/files/home/myRepos/csvPy/econs/567/src/notMain567a.cpp.o -MF CMakeFiles/menu.dir/data/data/com.termux/files/home/myRepos/csvPy/econs/567/src/notMain567a.cpp.o.d -o CMakeFiles/menu.dir/data/data/com.termux/files/home/myRepos/csvPy/econs/567/src/notMain567a.cpp.o -c /data/data/com.termux/files/home/myRepos/csvPy/econs/567/src/notMain567a.cpp
 
 CMakeFiles/menu.dir/data/data/com.termux/files/home/myRepos/csvPy/econs/567/src/notMain567a.cpp.i: cmake_force
@@ -163,6 +177,7 @@ menu_OBJECTS = \
 "CMakeFiles/menu.dir/src/mode_ncurses.cpp.o" \
 "CMakeFiles/menu.dir/src/mode_text.cpp.o" \
 "CMakeFiles/menu.dir/src/mode_toggle.cpp.o" \
+"CMakeFiles/menu.dir/data/data/com.termux/files/home/myRepos/csvPy/econs/567/src/math_utils.cpp.o" \
 "CMakeFiles/menu.dir/data/data/com.termux/files/home/myRepos/csvPy/econs/567/src/notMain567a.cpp.o"
 
 # External object files for target menu
@@ -173,12 +188,16 @@ menu_EXTERNAL_OBJECTS =
 /data/data/com.termux/files/home/myRepos/csvPy/econs/menu/bin/menu: CMakeFiles/menu.dir/src/mode_ncurses.cpp.o
 /data/data/com.termux/files/home/myRepos/csvPy/econs/menu/bin/menu: CMakeFiles/menu.dir/src/mode_text.cpp.o
 /data/data/com.termux/files/home/myRepos/csvPy/econs/menu/bin/menu: CMakeFiles/menu.dir/src/mode_toggle.cpp.o
+/data/data/com.termux/files/home/myRepos/csvPy/econs/menu/bin/menu: CMakeFiles/menu.dir/data/data/com.termux/files/home/myRepos/csvPy/econs/567/src/math_utils.cpp.o
 /data/data/com.termux/files/home/myRepos/csvPy/econs/menu/bin/menu: CMakeFiles/menu.dir/data/data/com.termux/files/home/myRepos/csvPy/econs/567/src/notMain567a.cpp.o
 /data/data/com.termux/files/home/myRepos/csvPy/econs/menu/bin/menu: CMakeFiles/menu.dir/build.make
 /data/data/com.termux/files/home/myRepos/csvPy/econs/menu/bin/menu: CMakeFiles/menu.dir/compiler_depend.ts
 /data/data/com.termux/files/home/myRepos/csvPy/econs/menu/bin/menu: CMakeFiles/menu.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/data/data/com.termux/files/home/myRepos/csvPy/econs/menu/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Linking CXX executable /data/data/com.termux/files/home/myRepos/csvPy/econs/menu/bin/menu"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/data/data/com.termux/files/home/myRepos/csvPy/econs/menu/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Linking CXX executable /data/data/com.termux/files/home/myRepos/csvPy/econs/menu/bin/menu"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/menu.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold "Kopiere Binary nach /data/data/com.termux/files/home/myRepos/csvPy/econs/bin"
+	/data/data/com.termux/files/usr/bin/cmake -E make_directory /data/data/com.termux/files/home/myRepos/csvPy/econs/bin
+	/data/data/com.termux/files/usr/bin/cmake -E copy /data/data/com.termux/files/home/myRepos/csvPy/econs/menu/bin/menu /data/data/com.termux/files/home/myRepos/csvPy/econs/bin
 
 # Rule to build all files generated by this target.
 CMakeFiles/menu.dir/build: /data/data/com.termux/files/home/myRepos/csvPy/econs/menu/bin/menu
