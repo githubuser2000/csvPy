@@ -1,7 +1,7 @@
 CMakeFiles/rational_space.dir/src/main.cpp.o: \
-  /data/data/com.termux/files/home/myRepos/csvPy/econs/econ678/src/main.cpp \
-  /data/data/com.termux/files/home/myRepos/csvPy/econs/econ678/include/encoding_utf8.h \
-  /data/data/com.termux/files/home/myRepos/csvPy/econs/econ678/include/rational.h \
+  /data/data/com.termux/files/home/myRepos/csvPy/econs/econ678/en/src/main.cpp \
+  /data/data/com.termux/files/home/myRepos/csvPy/econs/econ678/en/include/encoding_utf8.h \
+  /data/data/com.termux/files/home/myRepos/csvPy/econs/econ678/en/include/rational.h \
   /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/vector \
   /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/__config \
   /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/__config_site \
@@ -657,7 +657,7 @@ CMakeFiles/rational_space.dir/src/main.cpp.o: \
   /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/system_error \
   /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/streambuf \
   /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/cstdarg \
-  /data/data/com.termux/files/home/myRepos/csvPy/econs/econ678/include/space.h \
+  /data/data/com.termux/files/home/myRepos/csvPy/econs/econ678/en/include/space.h \
   /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/iostream \
   /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/istream \
   /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/__ostream/basic_ostream.h \

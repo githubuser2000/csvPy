@@ -1,4 +1,4 @@
-rational_space: \
+/data/data/com.termux/files/home/myRepos/csvPy/econs/bin/rational_space: \
  /data/data/com.termux/files/usr/lib/crtbegin_dynamic.o \
  CMakeFiles/rational_space.dir/src/main.cpp.o \
  CMakeFiles/rational_space.dir/src/rational.cpp.o \

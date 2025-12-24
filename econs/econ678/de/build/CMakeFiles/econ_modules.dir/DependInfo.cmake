@@ -8,8 +8,9 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/data/data/com.termux/files/home/myRepos/csvPy/econs/econ678/de/src/main.cpp" "CMakeFiles/econ678utf.dir/src/main.cpp.o" "gcc" "CMakeFiles/econ678utf.dir/src/main.cpp.o.d"
-  "" "/data/data/com.termux/files/home/myRepos/csvPy/econs/econ678/de/bin/econ678utf" "gcc" "CMakeFiles/econ678utf.dir/link.d"
+  "/data/data/com.termux/files/home/myRepos/csvPy/econs/econ678/de/src/rational.cpp" "CMakeFiles/econ_modules.dir/src/rational.cpp.o" "gcc" "CMakeFiles/econ_modules.dir/src/rational.cpp.o.d"
+  "/data/data/com.termux/files/home/myRepos/csvPy/econs/econ678/de/src/space.cpp" "CMakeFiles/econ_modules.dir/src/space.cpp.o" "gcc" "CMakeFiles/econ_modules.dir/src/space.cpp.o.d"
+  "/data/data/com.termux/files/home/myRepos/csvPy/econs/econ678/de/src/text.cpp" "CMakeFiles/econ_modules.dir/src/text.cpp.o" "gcc" "CMakeFiles/econ_modules.dir/src/text.cpp.o.d"
   )
 
 # Targets to which this target links which contain Fortran sources.

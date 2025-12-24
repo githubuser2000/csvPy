@@ -1,4 +1,6 @@
 file(REMOVE_RECURSE
+  "/data/data/com.termux/files/home/myRepos/csvPy/econs/bin/rational_space"
+  "/data/data/com.termux/files/home/myRepos/csvPy/econs/bin/rational_space.pdb"
   "CMakeFiles/rational_space.dir/link.d"
   "CMakeFiles/rational_space.dir/src/main.cpp.o"
   "CMakeFiles/rational_space.dir/src/main.cpp.o.d"
@@ -6,8 +8,6 @@ file(REMOVE_RECURSE
   "CMakeFiles/rational_space.dir/src/rational.cpp.o.d"
   "CMakeFiles/rational_space.dir/src/space.cpp.o"
   "CMakeFiles/rational_space.dir/src/space.cpp.o.d"
-  "rational_space"
-  "rational_space.pdb"
 )
 
 # Per-language clean rules from dependency scanning.

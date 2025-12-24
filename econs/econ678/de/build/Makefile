@@ -117,6 +117,19 @@ depend:
 .PHONY : depend
 
 #=============================================================================
+# Target rules for targets named econ_modules
+
+# Build rule for target.
+econ_modules: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 econ_modules
+.PHONY : econ_modules
+
+# fast build rule for target.
+econ_modules/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/econ_modules.dir/build.make CMakeFiles/econ_modules.dir/build
+.PHONY : econ_modules/fast
+
+#=============================================================================
 # Target rules for targets named econ678utf
 
 # Build rule for target.
@@ -158,7 +171,7 @@ src/rational.o: src/rational.cpp.o
 
 # target to build an object file
 src/rational.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/econ678utf.dir/build.make CMakeFiles/econ678utf.dir/src/rational.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/econ_modules.dir/build.make CMakeFiles/econ_modules.dir/src/rational.cpp.o
 .PHONY : src/rational.cpp.o
 
 src/rational.i: src/rational.cpp.i
@@ -166,7 +179,7 @@ src/rational.i: src/rational.cpp.i
 
 # target to preprocess a source file
 src/rational.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/econ678utf.dir/build.make CMakeFiles/econ678utf.dir/src/rational.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/econ_modules.dir/build.make CMakeFiles/econ_modules.dir/src/rational.cpp.i
 .PHONY : src/rational.cpp.i
 
 src/rational.s: src/rational.cpp.s
@@ -174,7 +187,7 @@ src/rational.s: src/rational.cpp.s
 
 # target to generate assembly for a file
 src/rational.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/econ678utf.dir/build.make CMakeFiles/econ678utf.dir/src/rational.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/econ_modules.dir/build.make CMakeFiles/econ_modules.dir/src/rational.cpp.s
 .PHONY : src/rational.cpp.s
 
 src/space.o: src/space.cpp.o
@@ -182,7 +195,7 @@ src/space.o: src/space.cpp.o
 
 # target to build an object file
 src/space.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/econ678utf.dir/build.make CMakeFiles/econ678utf.dir/src/space.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/econ_modules.dir/build.make CMakeFiles/econ_modules.dir/src/space.cpp.o
 .PHONY : src/space.cpp.o
 
 src/space.i: src/space.cpp.i
@@ -190,7 +203,7 @@ src/space.i: src/space.cpp.i
 
 # target to preprocess a source file
 src/space.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/econ678utf.dir/build.make CMakeFiles/econ678utf.dir/src/space.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/econ_modules.dir/build.make CMakeFiles/econ_modules.dir/src/space.cpp.i
 .PHONY : src/space.cpp.i
 
 src/space.s: src/space.cpp.s
@@ -198,7 +211,7 @@ src/space.s: src/space.cpp.s
 
 # target to generate assembly for a file
 src/space.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/econ678utf.dir/build.make CMakeFiles/econ678utf.dir/src/space.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/econ_modules.dir/build.make CMakeFiles/econ_modules.dir/src/space.cpp.s
 .PHONY : src/space.cpp.s
 
 src/text.o: src/text.cpp.o
@@ -206,7 +219,7 @@ src/text.o: src/text.cpp.o
 
 # target to build an object file
 src/text.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/econ678utf.dir/build.make CMakeFiles/econ678utf.dir/src/text.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/econ_modules.dir/build.make CMakeFiles/econ_modules.dir/src/text.cpp.o
 .PHONY : src/text.cpp.o
 
 src/text.i: src/text.cpp.i
@@ -214,7 +227,7 @@ src/text.i: src/text.cpp.i
 
 # target to preprocess a source file
 src/text.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/econ678utf.dir/build.make CMakeFiles/econ678utf.dir/src/text.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/econ_modules.dir/build.make CMakeFiles/econ_modules.dir/src/text.cpp.i
 .PHONY : src/text.cpp.i
 
 src/text.s: src/text.cpp.s
@@ -222,7 +235,7 @@ src/text.s: src/text.cpp.s
 
 # target to generate assembly for a file
 src/text.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/econ678utf.dir/build.make CMakeFiles/econ678utf.dir/src/text.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/econ_modules.dir/build.make CMakeFiles/econ_modules.dir/src/text.cpp.s
 .PHONY : src/text.cpp.s
 
 # Help Target
@@ -234,6 +247,7 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... econ678utf"
+	@echo "... econ_modules"
 	@echo "... src/main.o"
 	@echo "... src/main.i"
 	@echo "... src/main.s"

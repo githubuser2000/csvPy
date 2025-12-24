@@ -54,10 +54,10 @@ RM = /data/data/com.termux/files/usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /data/data/com.termux/files/home/myRepos/csvPy/econs/econ678
+CMAKE_SOURCE_DIR = /data/data/com.termux/files/home/myRepos/csvPy/econs/econ678/en
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /data/data/com.termux/files/home/myRepos/csvPy/econs/econ678/build
+CMAKE_BINARY_DIR = /data/data/com.termux/files/home/myRepos/csvPy/econs/econ678/en/build
 
 #=============================================================================
 # Directory level rules for the build root directory
@@ -85,14 +85,14 @@ clean: CMakeFiles/rational_space.dir/clean
 CMakeFiles/rational_space.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/rational_space.dir/build.make CMakeFiles/rational_space.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/rational_space.dir/build.make CMakeFiles/rational_space.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/data/data/com.termux/files/home/myRepos/csvPy/econs/econ678/build/CMakeFiles --progress-num=1,2,3,4 "Built target rational_space"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/data/data/com.termux/files/home/myRepos/csvPy/econs/econ678/en/build/CMakeFiles --progress-num=1,2,3,4 "Built target rational_space"
 .PHONY : CMakeFiles/rational_space.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/rational_space.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /data/data/com.termux/files/home/myRepos/csvPy/econs/econ678/build/CMakeFiles 4
+	$(CMAKE_COMMAND) -E cmake_progress_start /data/data/com.termux/files/home/myRepos/csvPy/econs/econ678/en/build/CMakeFiles 4
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/rational_space.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /data/data/com.termux/files/home/myRepos/csvPy/econs/econ678/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /data/data/com.termux/files/home/myRepos/csvPy/econs/econ678/en/build/CMakeFiles 0
 .PHONY : CMakeFiles/rational_space.dir/rule
 
 # Convenience name for target.
@@ -102,7 +102,7 @@ rational_space: CMakeFiles/rational_space.dir/rule
 # codegen rule for target.
 CMakeFiles/rational_space.dir/codegen:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/rational_space.dir/build.make CMakeFiles/rational_space.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/data/data/com.termux/files/home/myRepos/csvPy/econs/econ678/build/CMakeFiles --progress-num=1,2,3,4 "Finished codegen for target rational_space"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/data/data/com.termux/files/home/myRepos/csvPy/econs/econ678/en/build/CMakeFiles --progress-num=1,2,3,4 "Finished codegen for target rational_space"
 .PHONY : CMakeFiles/rational_space.dir/codegen
 
 # clean rule for target.

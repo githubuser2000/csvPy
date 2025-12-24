@@ -15,6 +15,9 @@ endif()
 
 include_directories(${PROJECT_SOURCE_DIR}/include)
 
+# Binary-Ausgabeordner
+set(CMAKE_RUNTIME_OUTPUT_DIRECTORY "$ENV{HOME}/myRepos/csvPy/econs/bin")
+
 add_executable(rational_space
     src/main.cpp
     src/rational.cpp

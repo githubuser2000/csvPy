@@ -4,12 +4,6 @@ file(REMOVE_RECURSE
   "CMakeFiles/econ678utf.dir/link.d"
   "CMakeFiles/econ678utf.dir/src/main.cpp.o"
   "CMakeFiles/econ678utf.dir/src/main.cpp.o.d"
-  "CMakeFiles/econ678utf.dir/src/rational.cpp.o"
-  "CMakeFiles/econ678utf.dir/src/rational.cpp.o.d"
-  "CMakeFiles/econ678utf.dir/src/space.cpp.o"
-  "CMakeFiles/econ678utf.dir/src/space.cpp.o.d"
-  "CMakeFiles/econ678utf.dir/src/text.cpp.o"
-  "CMakeFiles/econ678utf.dir/src/text.cpp.o.d"
 )
 
 # Per-language clean rules from dependency scanning.

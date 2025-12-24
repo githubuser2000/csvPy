@@ -4,7 +4,7 @@
 # compile CXX with /data/data/com.termux/files/usr/bin/c++
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/data/data/com.termux/files/home/myRepos/csvPy/econs/econ678/en/include
+CXX_INCLUDES = -I/data/data/com.termux/files/home/myRepos/csvPy/econs/econ678/de/src
 
-CXX_FLAGS = -O2 -g -DNDEBUG -std=c++17 -Wall -Wextra -O2
+CXX_FLAGS = -O2 -g -DNDEBUG -std=gnu++20 -finput-charset=UTF-8 -fexec-charset=UTF-8
 

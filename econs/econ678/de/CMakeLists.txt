@@ -11,18 +11,21 @@ add_compile_options(-finput-charset=UTF-8 -fexec-charset=UTF-8)
 # Binary in <project>/bin erzeugen
 set(CMAKE_RUNTIME_OUTPUT_DIRECTORY ${CMAKE_SOURCE_DIR}/bin)
 
-# Executable
-add_executable(econ678utf
-    src/main.cpp
+# Bibliothek aus den Modulen bauen
+add_library(econ_modules
     src/text.cpp
     src/rational.cpp
     src/space.cpp
 )
 
-# Includes
-target_include_directories(econ678utf PRIVATE
-    ${CMAKE_CURRENT_SOURCE_DIR}/src
-)
+# Include-Verzeichnis für die Bibliothek
+target_include_directories(econ_modules PUBLIC ${CMAKE_CURRENT_SOURCE_DIR}/src)
+
+# Executable, die nur main.cpp enthält
+add_executable(econ678utf src/main.cpp)
+
+# Bibliothek einbinden
+target_link_libraries(econ678utf PRIVATE econ_modules)
 
 # Zielordner außerhalb des Projekts
 set(EXTERNAL_BIN_DIR $ENV{HOME}/myRepos/csvPy/econs/bin)

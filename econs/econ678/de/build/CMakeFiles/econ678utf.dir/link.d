@@ -1,9 +1,7 @@
 /data/data/com.termux/files/home/myRepos/csvPy/econs/econ678/de/bin/econ678utf: \
  /data/data/com.termux/files/usr/lib/crtbegin_dynamic.o \
  CMakeFiles/econ678utf.dir/src/main.cpp.o \
- CMakeFiles/econ678utf.dir/src/text.cpp.o \
- CMakeFiles/econ678utf.dir/src/rational.cpp.o \
- CMakeFiles/econ678utf.dir/src/space.cpp.o \
+ libecon_modules.a \
  /data/data/com.termux/files/usr/lib/libc++_shared.so \
  /data/data/com.termux/files/usr/lib/clang/21/lib/linux/libclang_rt.builtins-aarch64-android.a \
  /data/data/com.termux/files/usr/lib/libunwind.a \
@@ -16,11 +14,7 @@
 
 CMakeFiles/econ678utf.dir/src/main.cpp.o:
 
-CMakeFiles/econ678utf.dir/src/text.cpp.o:
-
-CMakeFiles/econ678utf.dir/src/rational.cpp.o:
-
-CMakeFiles/econ678utf.dir/src/space.cpp.o:
+libecon_modules.a:
 
 /data/data/com.termux/files/usr/lib/libc++_shared.so:
 

@@ -1,8 +1,9 @@
-CMakeFiles/rational_space.dir/src/space.cpp.o: \
-  /data/data/com.termux/files/home/myRepos/csvPy/econs/econ678/en/src/space.cpp \
-  /data/data/com.termux/files/home/myRepos/csvPy/econs/econ678/en/include/space.h \
-  /data/data/com.termux/files/home/myRepos/csvPy/econs/econ678/en/include/rational.h \
-  /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/vector \
+CMakeFiles/econ_modules.dir/src/space.cpp.o: \
+  /data/data/com.termux/files/home/myRepos/csvPy/econs/econ678/de/src/space.cpp \
+  /data/data/com.termux/files/home/myRepos/csvPy/econs/econ678/de/src/space.hpp \
+  /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/array \
+  /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/__algorithm/equal.h \
+  /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/__algorithm/comp.h \
   /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/__config \
   /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/__config_site \
   /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/__configuration/abi.h \
@@ -16,9 +17,6 @@ CMakeFiles/rational_space.dir/src/space.cpp.o: \
   /data/data/com.termux/files/usr/bin/../../usr/include/android/ndk-version.h \
   /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/__configuration/availability.h \
   /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/__configuration/language.h \
-  /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/__vector/comparison.h \
-  /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/__algorithm/equal.h \
-  /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/__algorithm/comp.h \
   /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/__type_traits/desugars_to.h \
   /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/__type_traits/is_integral.h \
   /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/__type_traits/integral_constant.h \
@@ -169,11 +167,15 @@ CMakeFiles/rational_space.dir/src/space.cpp.o: \
   /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/__utility/is_pointer_in_range.h \
   /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/__utility/is_valid_range.h \
   /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/__type_traits/is_volatile.h \
-  /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/__algorithm/lexicographical_compare.h \
+  /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/__algorithm/fill_n.h \
   /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/__algorithm/min.h \
   /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/__algorithm/comp_ref_type.h \
   /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/__algorithm/min_element.h \
   /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/__type_traits/is_callable.h \
+  /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/__fwd/bit_reference.h \
+  /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/__utility/convert_to_integral.h \
+  /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/__type_traits/underlying_type.h \
+  /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/__algorithm/lexicographical_compare.h \
   /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/__algorithm/mismatch.h \
   /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/__algorithm/simd_utils.h \
   /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/__bit/bit_cast.h \
@@ -204,11 +206,15 @@ CMakeFiles/rational_space.dir/src/space.cpp.o: \
   /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/__type_traits/rank.h \
   /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/__type_traits/remove_volatile.h \
   /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/__type_traits/result_of.h \
-  /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/__type_traits/underlying_type.h \
   /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/__type_traits/is_final.h \
   /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/__type_traits/has_unique_object_representation.h \
   /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/__type_traits/is_aggregate.h \
   /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/__type_traits/negation.h \
+  /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/__type_traits/is_bounded_array.h \
+  /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/__type_traits/is_nothrow_convertible.h \
+  /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/__type_traits/lazy.h \
+  /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/__type_traits/is_unbounded_array.h \
+  /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/__type_traits/unwrap_ref.h \
   /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/__bit/countr.h \
   /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/__utility/integer_sequence.h \
   /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/__iterator/aliasing_iterator.h \
@@ -226,7 +232,6 @@ CMakeFiles/rational_space.dir/src/space.cpp.o: \
   /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/__tuple/tuple_types.h \
   /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/__type_traits/is_implicitly_default_constructible.h \
   /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/__type_traits/is_trivially_relocatable.h \
-  /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/__type_traits/unwrap_ref.h \
   /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/__utility/piecewise_construct.h \
   /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/cwchar \
   /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/cwctype \
@@ -302,75 +307,34 @@ CMakeFiles/rational_space.dir/src/space.cpp.o: \
   /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/__algorithm/lexicographical_compare_three_way.h \
   /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/__algorithm/three_way_comp_ref_type.h \
   /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/__compare/compare_three_way.h \
-  /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/__fwd/vector.h \
-  /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/__fwd/memory.h \
-  /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/__vector/swap.h \
-  /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/__vector/vector.h \
-  /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/__algorithm/copy.h \
-  /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/__algorithm/copy_move_common.h \
-  /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/__algorithm/unwrap_range.h \
-  /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/__iterator/next.h \
-  /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/__iterator/advance.h \
-  /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/__utility/convert_to_integral.h \
-  /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/__utility/unreachable.h \
-  /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/__algorithm/for_each_segment.h \
-  /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/__iterator/segmented_iterator.h \
-  /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/__fwd/bit_reference.h \
-  /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/__algorithm/copy_n.h \
-  /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/__algorithm/fill_n.h \
-  /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/__algorithm/max.h \
-  /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/__algorithm/max_element.h \
-  /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/__algorithm/move.h \
+  /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/__algorithm/swap_ranges.h \
   /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/__algorithm/iterator_operations.h \
   /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/__algorithm/iter_swap.h \
   /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/__algorithm/ranges_iterator_concept.h \
+  /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/__iterator/advance.h \
+  /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/__utility/unreachable.h \
   /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/__iterator/iter_swap.h \
+  /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/__iterator/next.h \
   /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/__iterator/prev.h \
-  /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/__algorithm/move_backward.h \
-  /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/__algorithm/ranges_copy_n.h \
-  /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/__algorithm/in_out_result.h \
-  /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/__algorithm/ranges_copy.h \
-  /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/__ranges/dangling.h \
-  /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/__iterator/unreachable_sentinel.h \
-  /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/__iterator/wrap_iter.h \
-  /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/__algorithm/rotate.h \
-  /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/__algorithm/swap_ranges.h \
-  /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/__debug_utils/sanitizers.h \
-  /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/__format/enable_insertable.h \
-  /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/__iterator/bounded_iter.h \
-  /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/__iterator/move_iterator.h \
-  /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/__compare/compare_three_way_result.h \
-  /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/__iterator/move_sentinel.h \
   /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/__iterator/reverse_iterator.h \
+  /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/__compare/compare_three_way_result.h \
   /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/__iterator/iterator.h \
+  /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/__iterator/segmented_iterator.h \
   /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/__ranges/subrange.h \
   /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/__fwd/subrange.h \
+  /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/__ranges/dangling.h \
   /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/__ranges/view_interface.h \
   /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/__ranges/empty.h \
   /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/__tuple/tuple_element.h \
-  /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/__memory/allocate_at_least.h \
-  /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/__memory/allocator_traits.h \
-  /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/__type_traits/detected_or.h \
-  /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/__memory/allocator.h \
-  /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/__new/allocate.h \
-  /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/__new/align_val_t.h \
-  /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/__new/global_new_delete.h \
-  /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/__new/exceptions.h \
-  /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/__exception/exception.h \
-  /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/__new/nothrow_t.h \
-  /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/__memory/compressed_pair.h \
-  /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/__memory/noexcept_move_assign_container.h \
-  /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/__memory/swap_allocator.h \
-  /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/__memory/temp_value.h \
-  /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/__memory/uninitialized_algorithms.h \
-  /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/__type_traits/is_unbounded_array.h \
-  /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/__utility/exception_guard.h \
-  /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/__ranges/container_compatible_range.h \
-  /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/__ranges/from_range.h \
-  /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/__split_buffer \
-  /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/__type_traits/is_allocator.h \
+  /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/__iterator/static_bounded_iter.h \
+  /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/__iterator/wrap_iter.h \
+  /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/__tuple/sfinae_helpers.h \
+  /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/__tuple/make_tuple_types.h \
+  /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/__tuple/tuple_like_ext.h \
   /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/stdexcept \
+  /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/__exception/exception.h \
   /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/__fwd/string.h \
+  /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/__fwd/memory.h \
   /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/__fwd/memory_resource.h \
   /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/cstdlib \
   /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/stdlib.h \
@@ -388,9 +352,15 @@ CMakeFiles/rational_space.dir/src/space.cpp.o: \
   /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/__exception/nested_exception.h \
   /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/__exception/terminate.h \
   /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/new \
+  /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/__new/align_val_t.h \
+  /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/__new/allocate.h \
+  /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/__new/global_new_delete.h \
+  /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/__new/exceptions.h \
+  /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/__new/nothrow_t.h \
   /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/__new/new_handler.h \
   /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/__new/interference_size.h \
   /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/__new/launder.h \
+  /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/__new/destroying_delete_t.h \
   /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/iosfwd \
   /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/__fwd/fstream.h \
   /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/__fwd/ios.h \
@@ -399,37 +369,29 @@ CMakeFiles/rational_space.dir/src/space.cpp.o: \
   /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/__fwd/sstream.h \
   /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/__fwd/streambuf.h \
   /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/__std_mbstate_t.h \
-  /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/__vector/container_traits.h \
-  /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/__type_traits/container_traits.h \
-  /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/__vector/vector_bool.h \
-  /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/__algorithm/copy_backward.h \
-  /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/__bit_reference \
-  /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/__functional/unary_function.h \
-  /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/climits \
-  /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/__vector/pmr.h \
-  /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/__memory_resource/polymorphic_allocator.h \
-  /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/__memory_resource/memory_resource.h \
-  /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/tuple \
-  /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/__memory/allocator_arg_t.h \
-  /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/__memory/uses_allocator.h \
-  /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/__tuple/find_index.h \
-  /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/__tuple/ignore.h \
-  /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/__tuple/make_tuple_types.h \
-  /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/__tuple/sfinae_helpers.h \
-  /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/__tuple/tuple_like_ext.h \
-  /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/__type_traits/lazy.h \
-  /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/__type_traits/maybe_const.h \
+  /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/__iterator/data.h \
+  /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/__iterator/empty.h \
+  /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/__iterator/reverse_access.h \
+  /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/__iterator/size.h \
   /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/compare \
+  /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/__compare/compare_partial_order_fallback.h \
+  /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/__compare/partial_order.h \
+  /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/__compare/weak_order.h \
+  /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/__compare/strong_order.h \
+  /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/__math/exponential_functions.h \
+  /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/__type_traits/promote.h \
+  /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/__math/traits.h \
+  /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/__utility/priority_tag.h \
+  /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/__compare/compare_strong_order_fallback.h \
+  /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/__compare/compare_weak_order_fallback.h \
+  /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/__compare/is_eq.h \
   /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/cmath \
   /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/__math/hypot.h \
   /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/__math/abs.h \
-  /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/__math/exponential_functions.h \
-  /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/__type_traits/promote.h \
   /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/__math/min_max.h \
   /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/__math/roots.h \
   /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/__math/special_functions.h \
   /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/__math/copysign.h \
-  /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/__math/traits.h \
   /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/math.h \
   /data/data/com.termux/files/usr/bin/../../usr/include/math.h \
   /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/__math/error_functions.h \
@@ -444,16 +406,6 @@ CMakeFiles/rational_space.dir/src/space.cpp.o: \
   /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/__math/remainder.h \
   /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/__math/rounding_functions.h \
   /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/__math/trigonometric_functions.h \
-  /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/utility \
-  /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/__utility/rel_ops.h \
-  /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/__utility/as_const.h \
-  /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/__utility/in_place.h \
-  /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/__iterator/data.h \
-  /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/__iterator/empty.h \
-  /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/__iterator/reverse_access.h \
-  /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/__iterator/size.h \
-  /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/__functional/hash.h \
-  /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/cstring \
   /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/algorithm \
   /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/__algorithm/adjacent_find.h \
   /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/__algorithm/all_of.h \
@@ -461,6 +413,12 @@ CMakeFiles/rational_space.dir/src/space.cpp.o: \
   /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/__algorithm/binary_search.h \
   /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/__algorithm/lower_bound.h \
   /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/__algorithm/half_positive.h \
+  /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/__algorithm/copy.h \
+  /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/__algorithm/copy_move_common.h \
+  /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/__algorithm/unwrap_range.h \
+  /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/__algorithm/for_each_segment.h \
+  /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/__algorithm/copy_backward.h \
+  /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/__algorithm/copy_n.h \
   /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/__algorithm/copy_if.h \
   /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/__algorithm/count.h \
   /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/__bit/invert_if.h \
@@ -478,6 +436,10 @@ CMakeFiles/rational_space.dir/src/space.cpp.o: \
   /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/__algorithm/for_each.h \
   /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/__ranges/movable_box.h \
   /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/optional \
+  /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/__functional/hash.h \
+  /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/__functional/unary_function.h \
+  /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/cstring \
+  /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/__utility/in_place.h \
   /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/atomic \
   /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/__atomic/aliases.h \
   /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/__atomic/atomic.h \
@@ -489,6 +451,7 @@ CMakeFiles/rational_space.dir/src/space.cpp.o: \
   /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/__atomic/to_gcc_order.h \
   /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/__chrono/duration.h \
   /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/ratio \
+  /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/climits \
   /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/__thread/poll_with_backoff.h \
   /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/__chrono/high_resolution_clock.h \
   /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/__chrono/steady_clock.h \
@@ -515,7 +478,9 @@ CMakeFiles/rational_space.dir/src/space.cpp.o: \
   /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/__atomic/atomic_init.h \
   /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/__atomic/fence.h \
   /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/__atomic/kill_dependency.h \
+  /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/__atomic/atomic_ref.h \
   /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/concepts \
+  /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/__concepts/common_with.h \
   /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/iterator \
   /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/__iterator/back_insert_iterator.h \
   /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/__iterator/front_insert_iterator.h \
@@ -525,17 +490,42 @@ CMakeFiles/rational_space.dir/src/space.cpp.o: \
   /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/__iterator/istreambuf_iterator.h \
   /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/__string/char_traits.h \
   /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/cstdio \
+  /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/__iterator/move_iterator.h \
+  /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/__iterator/move_sentinel.h \
   /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/__iterator/ostream_iterator.h \
   /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/__iterator/ostreambuf_iterator.h \
+  /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/__iterator/common_iterator.h \
   /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/variant \
   /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/__functional/operations.h \
   /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/__functional/binary_function.h \
   /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/__fwd/variant.h \
+  /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/__tuple/find_index.h \
   /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/__type_traits/dependent_type.h \
   /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/__utility/forward_like.h \
   /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/__variant/monostate.h \
+  /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/tuple \
+  /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/__memory/allocator_arg_t.h \
+  /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/__memory/uses_allocator.h \
+  /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/__tuple/ignore.h \
+  /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/__type_traits/maybe_const.h \
+  /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/utility \
+  /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/__utility/rel_ops.h \
+  /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/__utility/as_const.h \
+  /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/__utility/cmp.h \
+  /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/__iterator/counted_iterator.h \
+  /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/__iterator/indirectly_comparable.h \
+  /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/__iterator/projected.h \
+  /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/__iterator/mergeable.h \
+  /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/__functional/ranges_operations.h \
+  /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/__iterator/permutable.h \
+  /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/__iterator/sortable.h \
+  /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/__iterator/unreachable_sentinel.h \
   /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/memory \
   /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/__memory/align.h \
+  /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/__memory/allocator.h \
+  /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/__memory/allocate_at_least.h \
+  /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/__memory/allocator_traits.h \
+  /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/__type_traits/detected_or.h \
   /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/__memory/auto_ptr.h \
   /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/__memory/inout_ptr.h \
   /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/__memory/shared_ptr.h \
@@ -543,20 +533,31 @@ CMakeFiles/rational_space.dir/src/space.cpp.o: \
   /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/__functional/weak_result_type.h \
   /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/__memory/allocation_guard.h \
   /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/__memory/allocator_destructor.h \
+  /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/__memory/compressed_pair.h \
   /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/__memory/shared_count.h \
+  /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/__memory/uninitialized_algorithms.h \
+  /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/__algorithm/move.h \
+  /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/__utility/exception_guard.h \
   /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/__memory/unique_ptr.h \
   /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/__memory/array_cookie.h \
-  /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/__type_traits/is_bounded_array.h \
   /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/__utility/private_constructor_tag.h \
   /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/__type_traits/is_specialization.h \
   /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/__memory/out_ptr.h \
   /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/__memory/raw_storage_iterator.h \
   /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/__memory/temporary_buffer.h \
   /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/__memory/unique_temporary_buffer.h \
+  /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/__memory/assume_aligned.h \
+  /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/__memory/concepts.h \
+  /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/__memory/ranges_construct_at.h \
+  /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/__memory/ranges_uninitialized_algorithms.h \
+  /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/__algorithm/in_out_result.h \
+  /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/__memory/uses_allocator_construction.h \
   /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/__algorithm/generate.h \
   /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/__algorithm/generate_n.h \
   /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/__algorithm/includes.h \
   /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/__algorithm/inplace_merge.h \
+  /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/__algorithm/rotate.h \
+  /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/__algorithm/move_backward.h \
   /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/__memory/destruct_n.h \
   /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/__algorithm/is_heap.h \
   /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/__algorithm/is_heap_until.h \
@@ -566,6 +567,8 @@ CMakeFiles/rational_space.dir/src/space.cpp.o: \
   /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/__algorithm/is_sorted_until.h \
   /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/__algorithm/make_heap.h \
   /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/__algorithm/sift_down.h \
+  /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/__algorithm/max.h \
+  /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/__algorithm/max_element.h \
   /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/__algorithm/merge.h \
   /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/__algorithm/minmax.h \
   /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/__algorithm/minmax_element.h \
@@ -581,7 +584,6 @@ CMakeFiles/rational_space.dir/src/space.cpp.o: \
   /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/__debug_utils/strict_weak_ordering_check.h \
   /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/__debug_utils/randomize_range.h \
   /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/__bit/blsr.h \
-  /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/__functional/ranges_operations.h \
   /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/__algorithm/partial_sort_copy.h \
   /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/__algorithm/make_projected.h \
   /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/__algorithm/partition.h \
@@ -620,9 +622,132 @@ CMakeFiles/rational_space.dir/src/space.cpp.o: \
   /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/__algorithm/for_each_n.h \
   /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/__algorithm/pstl.h \
   /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/__algorithm/sample.h \
+  /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/__algorithm/in_found_result.h \
+  /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/__algorithm/in_fun_result.h \
+  /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/__algorithm/in_in_out_result.h \
+  /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/__algorithm/in_in_result.h \
+  /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/__algorithm/in_out_out_result.h \
+  /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/__algorithm/min_max_result.h \
+  /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/__algorithm/ranges_adjacent_find.h \
+  /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/__algorithm/ranges_all_of.h \
+  /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/__algorithm/ranges_any_of.h \
+  /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/__algorithm/ranges_binary_search.h \
+  /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/__algorithm/ranges_clamp.h \
+  /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/__algorithm/ranges_contains.h \
+  /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/__algorithm/ranges_find.h \
+  /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/__algorithm/ranges_find_if.h \
+  /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/__algorithm/ranges_copy.h \
+  /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/__algorithm/ranges_copy_backward.h \
+  /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/__algorithm/ranges_copy_if.h \
+  /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/__algorithm/ranges_copy_n.h \
+  /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/__algorithm/ranges_count.h \
+  /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/__algorithm/ranges_count_if.h \
+  /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/__algorithm/ranges_equal.h \
+  /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/__algorithm/ranges_equal_range.h \
+  /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/__algorithm/ranges_fill.h \
+  /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/__algorithm/ranges_fill_n.h \
+  /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/__algorithm/ranges_find_end.h \
+  /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/__algorithm/ranges_find_first_of.h \
+  /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/__algorithm/ranges_find_if_not.h \
+  /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/__algorithm/ranges_for_each.h \
+  /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/__algorithm/ranges_for_each_n.h \
+  /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/__algorithm/ranges_generate.h \
+  /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/__algorithm/ranges_generate_n.h \
+  /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/__algorithm/ranges_includes.h \
+  /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/__algorithm/ranges_inplace_merge.h \
+  /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/__algorithm/ranges_is_heap.h \
+  /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/__algorithm/ranges_is_heap_until.h \
+  /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/__algorithm/ranges_is_partitioned.h \
+  /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/__algorithm/ranges_is_permutation.h \
+  /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/__algorithm/ranges_is_sorted.h \
+  /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/__algorithm/ranges_is_sorted_until.h \
+  /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/__algorithm/ranges_lexicographical_compare.h \
+  /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/__algorithm/ranges_lower_bound.h \
+  /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/__algorithm/ranges_make_heap.h \
+  /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/__algorithm/ranges_max.h \
+  /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/__algorithm/ranges_min_element.h \
+  /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/__algorithm/ranges_max_element.h \
+  /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/__algorithm/ranges_merge.h \
+  /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/__algorithm/ranges_min.h \
+  /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/__algorithm/ranges_minmax.h \
+  /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/__algorithm/ranges_minmax_element.h \
+  /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/__algorithm/ranges_mismatch.h \
+  /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/__algorithm/ranges_move.h \
+  /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/__algorithm/ranges_move_backward.h \
+  /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/__algorithm/ranges_next_permutation.h \
+  /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/__algorithm/ranges_none_of.h \
+  /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/__algorithm/ranges_nth_element.h \
+  /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/__algorithm/ranges_partial_sort.h \
+  /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/__algorithm/ranges_partial_sort_copy.h \
+  /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/__algorithm/ranges_partition.h \
+  /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/__algorithm/ranges_partition_copy.h \
+  /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/__algorithm/ranges_partition_point.h \
+  /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/__algorithm/ranges_pop_heap.h \
+  /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/__algorithm/ranges_prev_permutation.h \
+  /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/__algorithm/ranges_push_heap.h \
+  /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/__algorithm/ranges_remove.h \
+  /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/__algorithm/ranges_remove_if.h \
+  /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/__algorithm/ranges_remove_copy.h \
+  /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/__algorithm/ranges_remove_copy_if.h \
+  /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/__algorithm/ranges_replace.h \
+  /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/__algorithm/ranges_replace_if.h \
+  /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/__algorithm/ranges_replace_copy.h \
+  /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/__algorithm/ranges_replace_copy_if.h \
+  /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/__algorithm/ranges_reverse.h \
+  /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/__algorithm/ranges_reverse_copy.h \
+  /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/__algorithm/ranges_rotate.h \
+  /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/__algorithm/ranges_rotate_copy.h \
+  /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/__algorithm/ranges_sample.h \
+  /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/__algorithm/uniform_random_bit_generator_adaptor.h \
+  /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/__random/uniform_random_bit_generator.h \
+  /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/__algorithm/ranges_search.h \
+  /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/__algorithm/ranges_search_n.h \
+  /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/__algorithm/ranges_set_difference.h \
+  /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/__algorithm/ranges_set_intersection.h \
+  /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/__algorithm/ranges_set_symmetric_difference.h \
+  /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/__algorithm/ranges_set_union.h \
+  /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/__algorithm/ranges_shuffle.h \
+  /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/__algorithm/ranges_sort.h \
+  /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/__algorithm/ranges_sort_heap.h \
+  /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/__algorithm/ranges_stable_partition.h \
+  /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/__algorithm/ranges_stable_sort.h \
+  /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/__algorithm/ranges_swap_ranges.h \
+  /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/__algorithm/ranges_transform.h \
+  /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/__algorithm/ranges_unique.h \
+  /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/__algorithm/ranges_unique_copy.h \
+  /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/__algorithm/ranges_upper_bound.h \
+  /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/__algorithm/shift_left.h \
+  /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/__algorithm/shift_right.h \
   /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/bit \
-  /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/array \
-  /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/__iterator/static_bounded_iter.h \
+  /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/__bit/bit_ceil.h \
+  /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/__bit/bit_floor.h \
+  /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/__bit/bit_width.h \
+  /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/__bit/endian.h \
+  /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/__bit/has_single_bit.h \
+  /data/data/com.termux/files/home/myRepos/csvPy/econs/econ678/de/src/rational.hpp \
+  /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/vector \
+  /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/__vector/comparison.h \
+  /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/__fwd/vector.h \
+  /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/__vector/swap.h \
+  /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/__vector/vector.h \
+  /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/__debug_utils/sanitizers.h \
+  /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/__format/enable_insertable.h \
+  /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/__iterator/bounded_iter.h \
+  /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/__memory/noexcept_move_assign_container.h \
+  /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/__memory/swap_allocator.h \
+  /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/__memory/temp_value.h \
+  /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/__ranges/container_compatible_range.h \
+  /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/__ranges/from_range.h \
+  /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/__split_buffer \
+  /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/__type_traits/is_allocator.h \
+  /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/__vector/container_traits.h \
+  /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/__type_traits/container_traits.h \
+  /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/__vector/vector_bool.h \
+  /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/__bit_reference \
+  /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/__vector/pmr.h \
+  /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/__memory_resource/polymorphic_allocator.h \
+  /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/__memory_resource/memory_resource.h \
+  /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/__vector/erase.h \
   /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/cerrno \
   /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/clocale \
   /data/data/com.termux/files/usr/bin/../../usr/include/locale.h \
@@ -656,4 +781,81 @@ CMakeFiles/rational_space.dir/src/space.cpp.o: \
   /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/__thread/id.h \
   /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/system_error \
   /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/streambuf \
-  /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/cstdarg
+  /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/cstdarg \
+  /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/random \
+  /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/__random/bernoulli_distribution.h \
+  /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/__random/uniform_real_distribution.h \
+  /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/__random/generate_canonical.h \
+  /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/__random/binomial_distribution.h \
+  /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/__random/cauchy_distribution.h \
+  /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/__random/chi_squared_distribution.h \
+  /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/__random/gamma_distribution.h \
+  /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/__random/exponential_distribution.h \
+  /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/__random/default_random_engine.h \
+  /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/__random/linear_congruential_engine.h \
+  /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/__random/is_seed_sequence.h \
+  /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/__random/discard_block_engine.h \
+  /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/__random/discrete_distribution.h \
+  /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/numeric \
+  /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/__numeric/accumulate.h \
+  /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/__numeric/adjacent_difference.h \
+  /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/__numeric/inner_product.h \
+  /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/__numeric/iota.h \
+  /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/__numeric/exclusive_scan.h \
+  /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/__numeric/gcd_lcm.h \
+  /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/__numeric/inclusive_scan.h \
+  /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/__numeric/pstl.h \
+  /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/__numeric/reduce.h \
+  /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/__numeric/transform_exclusive_scan.h \
+  /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/__numeric/transform_inclusive_scan.h \
+  /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/__numeric/transform_reduce.h \
+  /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/__numeric/midpoint.h \
+  /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/__numeric/saturation_arithmetic.h \
+  /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/execution \
+  /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/__type_traits/is_execution_policy.h \
+  /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/functional \
+  /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/__functional/binary_negate.h \
+  /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/__functional/bind.h \
+  /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/__functional/binder1st.h \
+  /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/__functional/binder2nd.h \
+  /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/__functional/mem_fn.h \
+  /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/__functional/mem_fun_ref.h \
+  /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/__functional/pointer_to_binary_function.h \
+  /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/__functional/pointer_to_unary_function.h \
+  /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/__functional/unary_negate.h \
+  /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/__functional/function.h \
+  /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/__type_traits/strip_signature.h \
+  /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/__functional/boyer_moore_searcher.h \
+  /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/unordered_map \
+  /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/__functional/is_transparent.h \
+  /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/__hash_table \
+  /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/__type_traits/can_extract_key.h \
+  /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/__type_traits/remove_const_ref.h \
+  /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/__iterator/erase_if_container.h \
+  /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/__iterator/ranges_iterator_traits.h \
+  /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/__node_handle \
+  /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/__functional/default_searcher.h \
+  /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/__functional/not_fn.h \
+  /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/__functional/perfect_forward.h \
+  /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/__functional/bind_back.h \
+  /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/__functional/bind_front.h \
+  /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/__random/extreme_value_distribution.h \
+  /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/__random/fisher_f_distribution.h \
+  /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/__random/geometric_distribution.h \
+  /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/__random/negative_binomial_distribution.h \
+  /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/__random/poisson_distribution.h \
+  /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/__random/clamp_to_integral.h \
+  /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/__random/normal_distribution.h \
+  /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/__random/independent_bits_engine.h \
+  /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/__random/knuth_b.h \
+  /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/__random/shuffle_order_engine.h \
+  /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/__random/lognormal_distribution.h \
+  /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/__random/mersenne_twister_engine.h \
+  /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/__random/piecewise_constant_distribution.h \
+  /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/__random/piecewise_linear_distribution.h \
+  /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/__random/random_device.h \
+  /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/__random/ranlux.h \
+  /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/__random/subtract_with_carry_engine.h \
+  /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/__random/seed_seq.h \
+  /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/__random/student_t_distribution.h \
+  /data/data/com.termux/files/usr/bin/../../usr/include/c++/v1/__random/weibull_distribution.h

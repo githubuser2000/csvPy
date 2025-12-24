@@ -1,3 +1,4 @@
+/data/data/com.termux/files/home/myRepos/csvPy/econs/econ678/de/build/CMakeFiles/econ_modules.dir
 /data/data/com.termux/files/home/myRepos/csvPy/econs/econ678/de/build/CMakeFiles/econ678utf.dir
 /data/data/com.termux/files/home/myRepos/csvPy/econs/econ678/de/build/CMakeFiles/edit_cache.dir
 /data/data/com.termux/files/home/myRepos/csvPy/econs/econ678/de/build/CMakeFiles/rebuild_cache.dir
