@@ -1,0 +1,3 @@
+/data/data/com.termux/files/home/myRepos/csvPy/econs/menue/build/CMakeFiles/econ49.dir
+/data/data/com.termux/files/home/myRepos/csvPy/econs/menue/build/CMakeFiles/edit_cache.dir
+/data/data/com.termux/files/home/myRepos/csvPy/econs/menue/build/CMakeFiles/rebuild_cache.dir
