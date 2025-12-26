@@ -1,1 +1,0 @@
-../econ678/econ678.zsh

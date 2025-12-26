@@ -1,1 +1,0 @@
-/data/data/com.termux/files/usr/bin/c++ -O2 -g -DNDEBUG -Xlinker --dependency-file=CMakeFiles/econs.dir/link.d CMakeFiles/econs.dir/src/main.cpp.o CMakeFiles/econs.dir/src/math_utils.cpp.o CMakeFiles/econs.dir/src/econ.cpp.o CMakeFiles/econs.dir/src/econ567.cpp.o -o bin/econs

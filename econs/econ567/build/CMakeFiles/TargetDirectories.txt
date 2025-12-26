@@ -1,4 +1,0 @@
-/data/data/com.termux/files/home/myRepos/csvPy/econs/econ567/build/CMakeFiles/econlib.dir
-/data/data/com.termux/files/home/myRepos/csvPy/econs/econ567/build/CMakeFiles/econ567.dir
-/data/data/com.termux/files/home/myRepos/csvPy/econs/econ567/build/CMakeFiles/edit_cache.dir
-/data/data/com.termux/files/home/myRepos/csvPy/econs/econ567/build/CMakeFiles/rebuild_cache.dir

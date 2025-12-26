@@ -1,1 +1,0 @@
-../econ678/econ678hs.hs

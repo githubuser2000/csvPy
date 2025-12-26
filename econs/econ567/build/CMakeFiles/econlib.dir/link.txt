@@ -1,2 +1,0 @@
-/data/data/com.termux/files/usr/bin/llvm-ar qc libeconlib.a CMakeFiles/econlib.dir/econ.cpp.o
-/data/data/com.termux/files/usr/bin/llvm-ranlib libeconlib.a
