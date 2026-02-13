@@ -1,0 +1,37 @@
+24 X ContinuumKontinuum;0
+testingTesten;1 
+determinationBestimmung Ampere;2 
+connectionVerbindung electricalElektrische VoltageSpannung;3 
+StreamStrom startBegin comesKommt endEnde physicalPhysische LayerEbebe;4
+Bit OneEins OrOder ZeroNull BeginAnfang Data Link LayerEbene;5 
+FramesRahmen ofVon Bits;6 
+controlingSteuerung;7 
+correctionKorrigierung;8 
+FramesRahmen ofVon Bytes ofDer CorrectionKorrigierung andUnd controlKontrolle;9 
+Medium DeterminationBestimmung Ethernet WifiWlan Mac AdressAdresse;10 
+UsingVerwenden Mac AdressAdresse BeginAnfang NetworkVermittlungs LayerSchicht;11 
+FramesRahmen Mac AdressAdresse;12 
+useVerwenden Mac FramesRahmen ForFür InfrastructureInfrastruktur;13 
+combineKombinieren InfrastructureInfrastruktur;14
+IPX SPX IPv6 IPv4 ICMP;15 
+spacesRäumeRoomsRäume IP AddressesAdressen;16 
+DifficultySchwierigkeit Offset AndUnd MTU DeterminationBestimmung BeginAnfang NetworkNetzwerk LayerEbene;17 
+FractioningZerlegen IntoIn IP PacketsPakete WithMit Overhead;18 
+useVerwenden IP ProtocolProtokoll MessagesNachrichten;19
+NetworkNetzwerk DistinguishionUnterscheidung Unicast Broadcast Multicast;20  
+RoutingPfadfinden;21 
+useVerwenden RoutesPfade;22 
+Hop DescisionEntscheidung;23  
+Header StoreSpeichern andUnd ForwardVorwärts;24 
+FragmentationFragmentierung EndEnde OfDer NetworkNetzwerk LayerEbene;25 
+Transport LayerEbene Ports EndEnde ToZu EndEnde CommunicationKommunikation;26 
+Transport LayerEbene TCP UDP ConnectionVerbindungs ManagementHandhabung ThreeDrei WayWege HandHände ShakeSchütteln;27 
+BeginAnfang SessionSitzungs LayerEbene RegistrationRegistrierung;28 
+UserBenutzer LoginEinloggen;29 
+AuthentificationAuthentifikation Duplexing AsWie USB AndUnd SessionSitzungs ID;30
+Token CreationErschaffung continuityWeiterführung;31 
+TheDie SessionSitzung AndUnd EndEnde SessionSitzungs LayerEbene;32 
+SignsZeichen TypesTypen DestinguishionUnterscheidung BeginAnfang PresentationPräsentations LayerEbene;33
+FormatingFormatieren SerializationSerialisierung;34 
+TranslationÜbersetzung EncodingEnkodierung CompressionKompression;35 
+StandardizationStandardisierung EndEnde OfDer PresentationPräsentations LayerEbene;36 
