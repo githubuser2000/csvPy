@@ -1,12 +1,11 @@
-Logik;Kategorie;Beschreibung
-Falsch;Phänomen;"reine Erscheinung, vielleicht ohne stabile Bestimmung, „bloßer Schein“?"
-Wahr;Bestimmung;"das Festgelegte, Definierte, das „Bestimmte Sein“"
-Weder wahr noch falsch;Existenz;"reines Dass-Sein, vor/nach aller Prädikation, jenseits von wahr/falsch"
-Sowohl wahr als auch falsch (Äquivalenz);Zeit;"Linearität erlaubt an beiden Enden dieselbe Ambivalenz? Zeit als Medium des Widerspruchs?"
-wahr UND „weder wahr noch falsch“;Kausalität;"Existenz + Bestimmung -> Kausalität als „Würfelwurf“, der aus Unbestimmtem Bestimmtes macht, aber nie vollständig weißbar"
-weder wahr noch falsch UND dann doch falsch;Zahl / Wert;"Stückweise Bestätigung von Existenz, wie bei Zahlenfolgen?"
-wahr UND falsch UND dann doch wahr;Winkel / Richtung;"zeitliche Ambivalenz, dann dritte Information lenkt/fokussiert -> Richtung im Raum?"
-sowohl wahr als auch falsch UND meta-äquivalent;Raum;"Raum als symmetrische Äquivalenz von Widersprüchen, mehrdimensionaler Ausgleich?"
-„weder wahr noch falsch“ UND „weder wahr noch falsch“;Potenzial;"reine Möglichkeit, doppelte Unbestimmtheit -> Potenz"
-„weder wahr noch falsch“ UND „sowohl wahr als auch falsch“;Effekt;"Unbestimmtheit trifft auf Widerspruch -> realer Effekt in der Welt?"
+Logischer Status,Kategorie,Definition/Erläuterung
+Falsch,Phänomen,"Reine Erscheinung, unbestimmt/bestimmbar, ohne stabile Wahrheit"
+Wahr,Bestimmung,Das Festgelegte; „es ist so und nicht anders“
+Weder wahr noch falsch,(Nicht-)Existenz,"Reines Dass oder Nicht-Dass, vor/jenseits aller Qualifikation; ambivalente Existenzialität"
+Sowohl wahr als auch falsch (einfache Äquivalenz),Zeit,Linearität erlaubt an beiden „Enden“ dieselbe Doppelwertigkeit; Medium des Widerspruchs
+Falsch UND „weder wahr noch falsch“,Kausalität,"Phänomen + (Nicht-)Existenz; Würfelwurf-Charakter; blinder Start aus unbestimmter Existenz"
+"Falsch, obwohl sowohl wahr als auch falsch (zeitliche Sequenz)",Zahl / Wert,Stückweise Bestätigung oder Enttäuschung von Existenz; diskrete Werte; Approximationen
+"Wahr UND falsch UND dann doch wahr (zeitliche Selektion)",Winkel / Richtung,Auflösung zeitlicher Ambivalenz durch zusätzliche Selektion; gerichtete Ausrichtung; Vektor-Charakter
+"Sowohl wahr als auch falsch UND meta-äquivalent",Raum,Symmetrie in allen Richtungen; multidirektionaler Ausgleich des Widerspruchs; isotroper Raum
+Weder „weder wahr noch falsch“ noch „wieder weder wahr noch falsch“,Potenzial,Reine Möglichkeit vor jeglicher Differenzierung; vor-ontologische Potenz
 
