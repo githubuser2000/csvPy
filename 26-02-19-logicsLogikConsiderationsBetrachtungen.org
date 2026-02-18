@@ -1,0 +1,34 @@
+#+TITLE: Logische Ontologie der Bestimmungen
+#+AUTHOR: User & Gemini
+#+OPTIONS: toc:nil
+
+* Die Logischen Modi des Seins
+
+** Primäre Kategorien
+*** Falsch = Phänomen
+(reine Erscheinung, vielleicht ohne stabile Bestimmung, „bloßer Schein“?)
+*** Wahr = Bestimmung
+(das Festgelegte, Definierte, das „Bestimmte Sein“)
+*** Weder wahr noch falsch = Existenz
+(reines Dass-Sein, vor/nach aller Prädikation, jenseits von wahr/falsch)
+
+** Komplexe Zeit- und Kausalitätsstrukturen
+*** Sowohl wahr als auch falsch (Äquivalenz) = Zeit
+(Linearität erlaubt an beiden Enden dieselbe Ambivalenz? Zeit als Medium des Widerspruchs?)
+*** Wahr UND „weder wahr noch falsch“ = Kausalität
+(Existenz + Bestimmung → Kausalität als „Würfelwurf“, der aus Unbestimmtem Bestimmtes macht, aber nie vollständig weißbar)
+
+** Mathematische und Geometrische Ableitungen
+*** Weder wahr noch falsch UND dann doch falsch = Zahl / Wert
+(Stückweise Bestätigung von Existenz, wie bei Zahlenfolgen?)
+*** Wahr UND falsch UND dann doch wahr = Winkel / Richtung
+(zeitliche Ambivalenz, dann dritte Information lenkt/fokussiert → Richtung im Raum?)
+*** Sowohl wahr als auch falsch UND meta-äquivalent = Raum
+(Raum als symmetrische Äquivalenz von Widersprüchen, mehrdimensionaler Ausgleich?)
+
+** Potenzialität und Wirkung
+*** „Weder wahr noch falsch“ UND „weder wahr noch falsch“ = Potenzial
+(reine Möglichkeit, doppelte Unbestimmtheit → Potenz)
+*** „Weder wahr noch falsch“ UND „sowohl wahr als auch falsch“ = Effekt
+(Unbestimmtheit trifft auf Widerspruch → realer Effekt in der Welt?)
+
